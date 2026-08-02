@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="japanesestudy.client/japanesestudy.client.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="JapaneseStudy.Server/JapaneseStudy.Server.csproj" />
+</Solution>

@@ -1,0 +1,157 @@
+<div class="container my-5" *ngIf="questions.length > 0">
+  <div class="row justify-content-center">
+    <div class="col-md-8 col-lg-6">
+
+      <!-- 1. 頂部：標題與進度列 -->
+      <div class="card shadow-sm mb-4 border-0 rounded-4 quiz-header-card">
+        <div class="card-body p-4">
+          <div class="d-flex justify-content-between align-items-center mb-3">
+            <h4 class="card-title m-0 fw-bold quiz-title">日文單字詞語測驗</h4>
+            <span class="badge rounded-pill px-3 py-2 quiz-badge">
+              題目 {{ currentIndex + 1 }} / {{ questions.length }}
+            </span>
+          </div>
+
+          <!-- 進度條 -->
+          <div class="progress rounded-pill" style="height: 8px;">
+            <div class="progress-bar custom-progress-bar rounded-pill"
+                 role="progressbar"
+                 [style.width.%]="((currentIndex + 1) / questions.length) * 100">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2. 題目與選項主卡片 -->
+      <div class="card shadow-lg border-0 rounded-4 quiz-main-card mb-4">
+        <div class="card-body p-4">
+
+          <div class="text-muted small mb-2 d-flex justify-content-between align-items-center">
+            <span>請選擇正確的中文意思：</span>
+            <span class="badge bg-secondary-subtle text-secondary rounded-pill">
+              JLPT {{ questions[currentIndex].targetVocab.level || 'N4' }}
+            </span>
+          </div>
+
+          <!-- 題目顯示區 -->
+          <div class="text-center my-4 py-4 rounded-4 quiz-question-box">
+            <h2 class="display-5 fw-bold text-dark mb-1">
+              {{ questions[currentIndex].targetVocab.expression }}
+            </h2>
+            <p class="text-muted fs-5 mb-0">
+              （{{ questions[currentIndex].targetVocab.reading }}）
+            </p>
+          </div>
+
+          <!-- 4選1 選項按鈕區 -->
+          <div class="d-grid gap-3 mb-4">
+            <button *ngFor="let opt of questions[currentIndex].options; let i = index"
+                    type="button"
+                    class="btn btn-lg text-start py-3 px-4 shadow-sm option-btn"
+                    [ngClass]="getOptionClass(opt)"
+                    [disabled]="questions[currentIndex].isAnswered || isFinished"
+                    (click)="onSelectOption(opt)">
+              <span class="fw-bold me-2 option-prefix">{{ getPrefix(i) }}.</span>
+              <span>{{ opt.text }}</span>
+            </button>
+          </div>
+
+          <!-- 底部控制列：測驗中 vs 測驗完成 -->
+          <div class="mt-4 pt-3 border-top">
+
+            <!-- 情況 A：測驗完結時，顯示「上一題 / 下一題」及「題號跳轉按鈕」 -->
+            <div *ngIf="isFinished">
+
+              <!-- 上一題 / 下一題 控制列 -->
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <button class="btn btn-outline-secondary rounded-pill px-4"
+                        [disabled]="currentIndex === 0"
+                        (click)="currentIndex = currentIndex - 1">
+                  ❮ 上一題
+                </button>
+
+                <span class="text-muted small fw-bold">回顧第 {{ currentIndex + 1 }} 題</span>
+
+                <button class="btn btn-outline-secondary rounded-pill px-4"
+                        [disabled]="currentIndex === questions.length - 1"
+                        (click)="currentIndex = currentIndex + 1">
+                  下一題 ❯
+                </button>
+              </div>
+
+              <!-- 快捷題號按鈕列（例：[1] [2] [3]），可以直接點擊切換 -->
+              <div class="d-flex justify-content-center gap-2 flex-wrap">
+                <button *ngFor="let q of questions; let idx = index"
+                        type="button"
+                        class="btn btn-sm rounded-circle fw-bold"
+                        [ngClass]="{
+                          'btn-primary-custom': currentIndex === idx,
+                          'btn-outline-secondary': currentIndex !== idx
+                        }"
+                        style="width: 36px; height: 36px;"
+                        (click)="currentIndex = idx">
+                  {{ idx + 1 }}
+                </button>
+              </div>
+
+            </div>
+
+            <!-- 情況 B：測驗進行中，顯示「下一題」按鈕 -->
+            <div *ngIf="!isFinished" class="d-flex justify-content-end">
+              <button type="button"
+                      class="btn btn-primary-custom btn-lg px-5 shadow rounded-pill"
+                      [disabled]="!questions[currentIndex].isAnswered"
+                      (click)="nextQuestion()">
+                {{ currentIndex === questions.length - 1 ? '完成測驗並查看結果' : '下一題' }}
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- 3. 成績表卡片：測驗完成後直接出現在題目卡片下方！ -->
+      <div class="card shadow-lg border-0 rounded-4 result-card text-center mb-4" *ngIf="isFinished">
+        <div class="card-body p-4 p-md-5">
+
+          <!-- ★ 改用百分比 (score / questions.length) 判斷 Emoji -->
+          <div class="result-icon mb-2">
+            {{ score / questions.length >= 0.8 ? '🎉' : (score / questions.length >= 0.5 ? '👍' : (score / questions.length >= 0.3 ? '💪' : '📖')) }}
+          </div>
+
+          <h3 class="fw-bold text-dark mb-1">測驗完成！</h3>
+          <p class="text-muted small mb-3">你可以在上方切換題號，回顧答錯的題目。</p>
+
+          <!-- 得分與正確率 -->
+          <div class="score-box py-3 px-3 mb-3 rounded-4">
+            <div class="score-number display-4 fw-bold">
+              {{ score }} <span class="fs-5 text-muted">/ {{ questions.length }}</span>
+            </div>
+            <div class="score-label text-secondary fw-semibold">
+              正確率：{{ ((score / questions.length) * 100).toFixed(0) }}%
+            </div>
+          </div>
+
+          <!-- 再測驗一次按鈕 -->
+          <button type="button"
+                  class="btn btn-primary-custom btn-lg w-100 py-3 rounded-pill shadow-sm"
+                  (click)="restartQuiz()">
+            🔄 再測驗一次
+          </button>
+
+        </div>
+      </div>
+
+
+      <!-- 4. 最底部的返回主頁按鈕 -->
+      <div class="text-center">
+        <a routerLink="/home" class="btn btn-outline-secondary-custom px-4 py-2 shadow-sm rounded-pill w-100">
+          🏠 返回主頁
+        </a>
+      </div>
+
+    </div>
+  </div>
+</div>

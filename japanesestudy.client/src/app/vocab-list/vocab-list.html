@@ -1,0 +1,105 @@
+<div class="container my-5">
+  <div class="row justify-content-center">
+    <div class="col-md-10 col-lg-8">
+
+      <!-- 1. 頂部標題卡片 -->
+      <div class="card shadow-sm mb-4 border-0 rounded-4 list-header-card">
+        <div class="card-body p-4">
+
+          <!-- 頂部標題列 + 右側返回主頁按鈕 -->
+          <div class="d-flex justify-content-between align-items-center mb-3">
+            <div>
+              <h3 class="fw-bold list-title mb-1">日文單字總覽</h3>
+              <p class="text-muted small mb-0">點擊下方標籤可切換查看不同等級的單字</p>
+            </div>
+
+            <!-- 頂部快速返回按鈕 -->
+            <a routerLink="/home" class="btn btn-outline-secondary-custom btn-sm px-3 py-2 rounded-pill text-nowrap shadow-sm">
+              🏠 返回主頁
+            </a>
+          </div>
+
+          <hr class="my-3 opacity-25">
+
+          <!-- Bootstrap Badge 篩選按鈕列 -->
+          <div class="d-flex justify-content-center gap-2 flex-wrap">
+            <button type="button"
+                    class="btn badge-btn rounded-pill px-4 py-2"
+                    [ngClass]="selectedLevel === 'ALL' ? 'badge-btn-active' : 'badge-btn-outline'"
+                    (click)="filterByLevel('ALL')">
+              全部 ({{ allVocabList.length }})
+            </button>
+
+            <button type="button"
+                    class="btn badge-btn rounded-pill px-4 py-2"
+                    [ngClass]="selectedLevel === 'N3' ? 'badge-btn-active' : 'badge-btn-outline'"
+                    (click)="filterByLevel('N3')">
+              N3 ({{ n3Count }})
+            </button>
+
+            <button type="button"
+                    class="btn badge-btn rounded-pill px-4 py-2"
+                    [ngClass]="selectedLevel === 'N4' ? 'badge-btn-active' : 'badge-btn-outline'"
+                    (click)="filterByLevel('N4')">
+              N4 ({{ n4Count }})
+            </button>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- 2. 顯示目前數目 -->
+      <div class="d-flex justify-content-between align-items-center mb-3 px-2">
+        <span class="text-secondary small fw-bold">
+          顯示中：{{ filteredVocabList.length }} 個單字
+        </span>
+      </div>
+
+      <!-- ★ 3. 單字卡片列表網格（你之前漏咗呢一段！） -->
+      <div class="row g-3">
+        <div class="col-12 col-md-6" *ngFor="let item of filteredVocabList">
+          <div class="card h-100 border-0 shadow-sm rounded-4 vocab-card">
+            <div class="card-body p-3 d-flex flex-column justify-content-between">
+
+              <div>
+                <!-- 頂部 Level 標籤 -->
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <span class="badge rounded-pill level-tag">
+                    JLPT {{ item.level || 'N4' }}
+                  </span>
+                </div>
+
+                <!-- ★ 漢字與讀音放在同一列（隔離） -->
+                <h4 class="fw-bold vocab-expression mb-2 d-flex align-items-baseline flex-wrap gap-2">
+                  <!-- 日文漢字 -->
+                  <span class="kanji-text">{{ item.expression }}</span>
+                  <!-- 平假名/片假名（讀音） -->
+                  <span class="vocab-reading">（{{ item.reading }}）</span>
+                </h4>
+              </div>
+
+              <!-- 中文意思 -->
+              <div class="vocab-meaning pt-2 mt-2 border-top">
+                <span class="fw-semibold text-dark">{{ item.chi_meaning }}</span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- 空資料提示 -->
+        <div class="col-12 text-center py-5" *ngIf="filteredVocabList.length === 0">
+          <div class="text-muted fs-5">📖 暫時未有此等級的單字資料</div>
+        </div>
+      </div>
+
+      <!-- 4. 最底部的返回主頁按鈕 -->
+      <div class="text-center mt-5">
+        <a routerLink="/home" class="btn btn-outline-secondary-custom px-4 py-2 shadow-sm rounded-pill w-100">
+          🏠 返回主頁
+        </a>
+      </div>
+
+    </div>
+  </div>
+</div>

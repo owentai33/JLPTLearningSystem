@@ -1,0 +1,349 @@
+body {
+  background: #ddd6ca !important;
+  font-family: "Segoe UI",sans-serif;
+}
+
+.container {
+  max-width: 1100px;
+}
+
+h1 {
+  color: #3d4a3f;
+}
+
+.menu-card {
+  background: #f8f4ed;
+  border-radius: 18px;
+  padding: 35px;
+  cursor: pointer;
+  transition: .25s;
+  border: 1px solid #ebe7de;
+}
+
+  .menu-card:hover {
+    transform: translateY(-6px);
+    background: #f8f6f1;
+    box-shadow: 0 12px 30px rgba(0,0,0,.08);
+  }
+
+.emoji {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #3d4a3f;
+  font-weight: 700;
+}
+
+p {
+  color: #777;
+  margin: 0;
+}
+
+.arrow {
+  font-size: 34px;
+  color: #8b7355;
+}
+
+.daily-wrapper {
+  background: #ddd6ca;
+  border-radius: 28px;
+  padding: 35px;
+  margin-bottom: 60px;
+}
+
+.daily-card {
+  /* ★ 關鍵修正：寬度改為自適應 100%，大螢幕最多 430px */
+  width: 100%;
+  max-width: 430px;
+  min-height: 280px;
+  background: #f8f4ed;
+  border-radius: 24px;
+  padding: 35px 25px; /* 手機版內邊距稍微減小，空間更好放 */
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,.08);
+  box-sizing: border-box; /* 確保 padding 唔會撐大寬度 */
+}
+
+/* 每日單字進度徽章 (超明顯版) */
+.daily-progress-badge {
+  background-color: #2d5a46; /* 沉穩墨綠色 */
+  color: #ffffff; /* 純白強烈對比字體 */
+  font-size: 0.95rem; /* 電腦版字體 */
+  font-weight: 700; /* 粗體 */
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 6px rgba(45, 90, 70, 0.2);
+}
+
+.daily-card h1 {
+  margin-top: 25px;
+  font-size: 38px; /* 手機版微調 38px 避免漢字太長爆位 */
+  font-weight: bold;
+}
+
+.daily-card h4 {
+  color: #666;
+}
+
+.daily-card hr {
+  margin: 24px 0; /* 手機版稍微收細間距 */
+}
+
+/* ==========================================
+   電腦版：左右箭頭浮動按鈕定位
+   ========================================== */
+.circle-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  background-color: #2d5a46; /* 墨綠色主題 */
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+  .circle-btn:hover {
+    background-color: #1e3d2f;
+    transform: translateY(-50%) scale(1.05);
+  }
+
+/* 左按鈕定位 */
+.left-btn {
+  left: calc(50% - 300px) !important;
+}
+
+/* 右按鈕定位 */
+.right-btn {
+  right: calc(50% - 300px) !important;
+}
+
+/* ==========================================
+   📱 手機版 (螢幕寬度 < 576px)
+   ========================================== */
+@media (max-width: 576px) {
+  /* 手機版直接隱藏按鈕，轉用手勢 Swiping */
+  .circle-btn {
+    display: none !important;
+  }
+
+  /* 允許上下 Scroll，橫向留給 Swiping，防選取文字 */
+  .daily-card {
+    touch-action: pan-y;
+    user-select: none;
+  }
+
+  .daily-progress-badge {
+    font-size: 0.8rem !important; /* ★ 手機版字體縮細少少，非常精緻 */
+    padding: 0.35rem 0.65rem !important; /* ★ 內邊距同時縮細，唔會太佔空間 */
+  }
+}
+
+/* ==========================================
+   滑動提示 (Swipe Hint) 動畫
+   ========================================== */
+.swipe-hint {
+  color: #8c857b;
+  font-size: 0.85rem;
+  animation: swipePulse 2s infinite;
+}
+
+@keyframes swipePulse {
+  0%, 100% {
+    transform: translateX(0);
+    opacity: 0.6;
+  }
+
+  50% {
+    transform: translateX(6px);
+    opacity: 1;
+  }
+}
+
+.jlpt {
+  display: inline-block;
+  padding: 6px 15px;
+  border-radius: 20px;
+  background: #4e6b52;
+  color: white;
+  font-size: 14px;
+}
+
+.circle-btn {
+  width: 58px;
+  height: 58px;
+  border: none;
+  border-radius: 50%;
+  background: #b8b0a3;
+  font-size: 26px;
+  transition: .2s;
+}
+
+  .circle-btn:hover {
+    background: #4e6b52;
+    color: white;
+  }
+
+.dots {
+  text-align: center;
+}
+
+  .dots span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #b6afa3;
+    margin: 0 4px;
+  }
+
+  .dots .active {
+    width: 28px;
+    border-radius: 20px;
+    background: #4e6b52;
+  }
+
+
+.countdown-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.exam-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.days-badge {
+  font-size: 14px;
+  color: #718096;
+}
+
+  .days-badge strong {
+    color: #e53e3e; /* 用搶眼嘅紅字突顯剩餘日數 */
+    font-size: 18px;
+  }
+
+
+/* ★ 動態終點旗 ICON */
+.flag-icon {
+  position: absolute;
+  right: -8px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
+  /* ★ 修正 4: 加入輕微搖擺動畫 (不影響佈局) */
+  animation: jlptFlagWiggle 2.5s ease-in-out infinite;
+  transform-origin: bottom center; /* 讓旗仔好似由底部擺動 */
+}
+
+
+/* --- 所需嘅動畫 Keyframes (唔使改佈局 CSS) --- */
+
+/* 1. 進度條漸變流動動畫 */
+@keyframes jlptGradientScroll {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    /* 剛好移動一個背景循環長度 (200px)，動畫會極之順滑且極快 */
+    background-position: 200px 0;
+  }
+}
+
+/* 2. 旗仔輕微擺動動畫 */
+@keyframes jlptFlagWiggle {
+  0%, 100% {
+    transform: translateY(-50%) rotate(0deg);
+  }
+
+  25% {
+    transform: translateY(-52%) rotate(-10deg);
+  }
+  /* 輕微上移同左傾 */
+  75% {
+    transform: translateY(-48%) rotate(10deg);
+  }
+  /* 輕微下移同右傾 */
+}
+
+/* =========================================
+   修正版：只增加動態感，不改動佈局 (確保唔爆位)
+   ========================================= */
+
+
+.jlpt-countdown-card {
+  /* ★ 換成同上方卡片一樣嘅溫暖米白 */
+  background: #FBF9F5;
+  border-radius: 16px;
+  padding: 20px 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+  margin-bottom: 24px;
+  border: 1px solid #EAE5D9;
+}
+
+/* 軌道底色 */
+.progress-track {
+  position: relative;
+  width: 100%;
+  height: 16px;
+  /* ★ 改用溫暖嘅燕麥奶茶色軌道 */
+  background-color: #EFECE6;
+  border-radius: 999px;
+  overflow: visible;
+  margin-bottom: 8px;
+}
+
+/* ★ 動態漸變色進度條 */
+.progress-fill {
+  position: relative;
+  min-width: 24px;
+  height: 100%;
+  border-radius: 999px;
+  /* ★ 溫和嘅日系珊瑚粉 -> 暖栗粉漸變 */
+  background: linear-gradient(90deg, #E07A5F 0%, #F2CC8F 50%, #E07A5F 100%);
+  background-size: 200px 100%;
+  transition: width 1s ease-in-out;
+  animation: jlptGradientScroll 1.5s linear infinite;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 8px;
+  box-sizing: border-box;
+}
+
+/* ★ 永遠置中喺 FILL 正中間 */
+.progress-text {
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1;
+  white-space: nowrap;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.countdown-footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  /* ★ 換成相呼應嘅深珊瑚栗色，睇落好舒服 */
+  color: #C05A3E;
+}

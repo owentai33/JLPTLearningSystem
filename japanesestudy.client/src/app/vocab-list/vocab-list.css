@@ -1,0 +1,96 @@
+/* 頂部標題卡片 */
+.list-header-card {
+  background-color: #faf8f5;
+  border: 1px solid #e2ded4 !important;
+}
+
+.list-title {
+  color: #2d5a46;
+}
+
+/* ---------------- Badge 篩選按鈕 ---------------- */
+.badge-btn {
+  font-size: 0.95rem;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+}
+
+/* 沒選中時的樣式 */
+.badge-btn-outline {
+  background-color: #ffffff;
+  border: 1.5px solid #dcd6cd;
+  color: #5c554c;
+}
+
+  .badge-btn-outline:hover {
+    background-color: #f0ebe1;
+    border-color: #0076a3;
+    color: #0076a3;
+  }
+
+/* 選中時的主色樣式 (墨綠) */
+.badge-btn-active {
+  background-color: #2d5a46 !important;
+  border: 1.5px solid #2d5a46 !important;
+  color: #ffffff !important;
+  box-shadow: 0 4px 10px rgba(45, 90, 70, 0.2);
+}
+
+/* ---------------- 單字卡片 ---------------- */
+.vocab-card {
+  background-color: #faf8f5;
+  border: 1px solid #e8e3d9 !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+  .vocab-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08) !important;
+    border-color: #d0c8b8 !important;
+  }
+
+.level-tag {
+  background-color: #0076a3;
+  color: #ffffff;
+  font-size: 0.75rem;
+  padding: 0.4em 0.8em;
+}
+
+.vocab-expression {
+  color: #2c3e50;
+  font-size: 1.5rem;
+}
+
+.vocab-meaning {
+  border-top-color: #e8e3d9 !important;
+  font-size: 1.05rem;
+}
+
+/* 單字漢字（主色：深藍黑） */
+.kanji-text {
+  color: #2c3e50;
+  font-size: 1.6rem;
+}
+
+/* ★ 假名/讀音樣式（字體放大 + 質感深灰色） */
+.vocab-reading {
+  color: #6c757d; /* 質感深灰色 (Muted Grey) */
+  font-size: 1.15rem; /* 保持清晰易讀的大字體 */
+  font-weight: 500; /* 適中的字重，不搶漢字風采 */
+}
+
+/* ---------------- 返回主頁按鈕 ---------------- */
+/* 頂部/底部返回主頁按鈕通用樣式 */
+.btn-outline-secondary-custom {
+  border: 1.5px solid #8c857b;
+  color: #5c554c;
+  background-color: transparent;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+}
+
+  .btn-outline-secondary-custom:hover {
+    background-color: #8c857b;
+    color: #ffffff;
+    transform: translateY(-1px);
+  }

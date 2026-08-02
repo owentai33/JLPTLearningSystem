@@ -1,0 +1,263 @@
+<div class="container py-5">
+
+  <div class="text-center mb-5">
+
+    <h1 class="fw-bold display-5">
+      日本語勉強練習
+    </h1>
+
+    <p class="text-secondary">
+      Learn Japanese Every Day
+    </p>
+
+  </div>
+
+
+  <div class="daily-wrapper mb-5">
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+
+      <h2 class="fw-bold">
+        📅 每日溫習十個單字
+      </h2>
+
+      <!-- ★ 右側超明顯進度提示 -->
+      <span class="badge rounded-pill px-3 py-2 daily-progress-badge">
+        {{ currentIndex + 1 }} / {{ vocabList.length }}
+      </span>
+
+    </div>
+
+    <!-- 確保有資料才渲染畫面 -->
+    <div class="d-flex align-items-center justify-content-center position-relative w-100 flex-column" *ngIf="vocabList.length > 0">
+
+      <!-- 電腦版繼續顯示左右按鈕 -->
+      <button class="circle-btn left-btn" (click)="prevVocab()">
+        ❮
+      </button>
+
+      <!-- 每日單字卡片：加上 touchstart & touchend 手勢監聽 -->
+      <div class="daily-card"
+           (touchstart)="onTouchStart($event)"
+           (touchend)="onTouchEnd($event)"
+           (mousedown)="onMouseDown($event)"
+           (mouseup)="onMouseUp($event)">
+
+        <div class="jlpt">
+          JLPT {{ vocabList[currentIndex].level }}
+        </div>
+
+        <!-- 漢字 -->
+        <h1>
+          {{ vocabList[currentIndex].expression }}
+        </h1>
+
+        <!-- 平假名讀音 -->
+        <h4>
+          {{ vocabList[currentIndex].reading }}
+        </h4>
+
+        <hr>
+
+        <!-- 中文/英文意思 -->
+        <h5>
+          {{ vocabList[currentIndex].chi_meaning }}
+        </h5>
+
+        <h5 *ngIf="vocabList[currentIndex].eng_meaning">
+          {{ vocabList[currentIndex].eng_meaning }}
+        </h5>
+
+      </div>
+
+      <!-- 電腦版右按鈕 -->
+      <button class="circle-btn right-btn" (click)="nextVocab()">
+        ❯
+      </button>
+
+      <!-- ★ 加大了字體 fs-6 並調整顏色更清晰 -->
+      <div class="swipe-hint text-center mt-3 d-md-none fw-bold fs-6">
+        👈 左右滑動切換單字 👉
+      </div>
+    </div>
+
+
+    <div class="text-center mt-4" *ngIf="vocabList.length > 0">
+      <button class="btn rounded-pill px-4 py-2 shadow-sm text-white fs-5"
+              style="background-color: #0076a3; transition: all 0.2s;"
+              onmouseover="this.style.backgroundColor='#1a8cb9'; this.querySelector('.spin-icon').style.transform='rotate(360deg)'"
+              onmouseout="this.style.backgroundColor='#0076a3'; this.querySelector('.spin-icon').style.transform='rotate(0deg)'"
+              (click)="getRandomTen()">
+
+        <!-- 🔄 圖示：加上 transition 做出轉一圈動畫 -->
+        <span class="spin-icon d-inline-block me-1" style="transition: transform 0.6s ease-in-out;">🔄</span>
+        <span>換一組隨機單字</span>
+
+      </button>
+    </div>
+
+
+
+
+  </div>
+
+
+
+
+
+  <div class="row g-4">
+
+    <div class="col-md-6">
+
+      <div class="menu-card">
+
+        <div routerLink="/vocab-list" class="d-flex justify-content-between align-items-center">
+
+          <div>
+
+            <div class="emoji">
+              📖
+            </div>
+
+            <h3>單字列表</h3>
+
+            <p>
+              查看所有 JLPT 單字
+            </p>
+
+          </div>
+
+          <div class="arrow">
+
+            ➜
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="col-md-6">
+
+      <div class="menu-card">
+
+        <div routerLink="/mc-quiz" class="d-flex justify-content-between align-items-center">
+
+          <div>
+
+            <div class="emoji">
+              🎮
+            </div>
+
+            <h3>詞語測驗</h3>
+
+            <p>
+              四選一練習
+            </p>
+
+          </div>
+
+          <div class="arrow">
+
+            ➜
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="col-md-6">
+
+      <div class="menu-card">
+
+        <div class="d-flex justify-content-between align-items-center">
+
+          <div>
+
+            <div class="emoji">
+              🧩
+            </div>
+
+            <h3>重組句子</h3>
+
+            <p>
+              排列正確語序
+            </p>
+
+          </div>
+
+          <div class="arrow">
+
+            ➜
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="col-md-6">
+
+      <div class="menu-card">
+
+        <div class="d-flex justify-content-between align-items-center">
+
+          <div>
+
+            <div class="emoji">
+              ⭐
+            </div>
+
+            <h3>收藏單字</h3>
+
+            <p>
+              我的生字簿
+            </p>
+
+          </div>
+
+          <div class="arrow">
+
+            ➜
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="jlpt-countdown-card mt-4">
+    <div class="countdown-header">
+      <span class="exam-title">🎯 12月6日 JLPT 倒數</span>
+      <span class="days-badge">距離考試仲有 <strong>{{ daysLeft }}</strong> 日</span>
+    </div>
+
+    <!-- 現代化進度條 -->
+    <div class="progress-track">
+      <div class="progress-fill" [style.width.%]="progressPercent">
+        <span class="progress-text">{{ progressPercent }}%</span>
+      </div>
+      <div class="flag-icon">🏁</div>
+    </div>
+
+
+    <div class="countdown-footer">
+      <span>全力衝刺中</span>
+      <span>進度：{{ progressPercent }}%</span>
+      <span>目標：12月6日</span>
+    </div>
+  </div>
+
+</div>
