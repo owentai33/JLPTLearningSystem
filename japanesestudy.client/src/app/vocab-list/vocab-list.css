@@ -94,3 +94,37 @@
     color: #ffffff;
     transform: translateY(-1px);
   }
+
+
+/* 列表卡片右上角的喇叭按鈕 */
+.list-speaker-btn {
+  background: transparent;
+  border: none;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  color: #6c757d;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent; /* 移除手機點擊藍框 */
+}
+
+/* 🖱️ 只限電腦 Hover */
+@media (hover: hover) {
+  .list-speaker-btn:hover {
+    background-color: rgba(0, 0, 0, 0.08);
+    transform: scale(1.15);
+    color: #111111;
+  }
+}
+
+/* 👆 手機/電腦點擊按下瞬間 */
+.list-speaker-btn:active {
+  transform: scale(0.95);
+  background-color: rgba(0, 0, 0, 0.1);
+}

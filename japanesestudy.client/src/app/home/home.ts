@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit, signal, ChangeDetectorRef } from '@angular/core';
 import { VocabService, VocabItem } from '../service/vocab'; // 引入 Service
+import { TextToSpeech } from '../service/text-to-speech'; 
 //import * as Papa from 'papaparse';
 
 // interface VocabItem {
@@ -32,6 +33,7 @@ export class Home implements OnInit {
   // 2. 喺建構子注入 ChangeDetectorRef (cdr)
   constructor(
     public vocabService: VocabService,
+    public ttsService: TextToSpeech,
     private http: HttpClient,
     private cdr: ChangeDetectorRef
   ) { }
@@ -46,6 +48,13 @@ export class Home implements OnInit {
         this.getRandomTen();
       }
     });
+  }
+
+  playAudio(text: string | undefined): void {
+    if (!text) return; // 做基本防錯，如果沒有文字就不處理
+
+    // 你可以在這裡加額外邏輯，例如 console.log 或播放動畫狀態
+    this.ttsService.speak(text);
   }
 
   // loadLocalCsv(): void {
@@ -71,6 +80,7 @@ export class Home implements OnInit {
   //     }
   //   });
   // }
+
 
   getRandomTen() {
     this.vocabList = this.vocabService.getRandomVocab(10);

@@ -7,9 +7,10 @@ import { App } from './app';
 import { McQuiz } from './mc-quiz/mc-quiz';
 import { Home } from './home/home';
 import { VocabList } from './vocab-list/vocab-list';
+import { SentencePractice } from './sentence-practice/sentence-practice';
 
 @NgModule({
-  declarations: [App, McQuiz, Home, VocabList],
+  declarations: [App, McQuiz, Home, VocabList, SentencePractice],
   imports: [BrowserModule, HttpClientModule, AppRoutingModule],
   providers: [provideBrowserGlobalErrorListeners()],
   bootstrap: [App],

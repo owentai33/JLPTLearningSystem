@@ -1,0 +1,144 @@
+/* 日系文青大地色系 Theme */
+:host {
+  --page-bg: #e8e4da; /* 頁面米色背景 */
+  --card-bg: #fcfbf9; /* 主卡片純白色 */
+  --inner-bg: #f2ede2; /* 組合區奶茶色內框 */
+  --forest-green: #1e4a38; /* 頂部標籤與選取狀態 森林綠 */
+  --progress-blue: #0076a3; /* 進度條藍色 */
+  --border-color: #e6e2d8; /* 選項與卡片邊框 */
+  --text-main: #333333; /* 主文字 */
+  --btn-next-disabled: #b2cad4; /* 按鈕未啟用顏色 */
+  --btn-next-active: #1e4a38; /* 按鈕可點擊顏色 */
+}
+
+/* 主頁面背景 */
+.quiz-wrapper {
+  background-color: var(--page-bg);
+  min-height: 100vh;
+  padding: 20px 12px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+/* 通用圓角卡片 */
+.theme-card {
+  background-color: var(--card-bg);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+}
+
+/* 頂部綠色標籤 */
+.badge-green {
+  background-color: var(--forest-green);
+  color: #ffffff;
+  border-radius: 20px;
+  padding: 6px 16px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+/* N5 灰階小標籤 */
+.badge-level {
+  background-color: #e2dfd5;
+  color: #666666;
+  border-radius: 12px;
+  padding: 4px 12px;
+  font-size: 0.8rem;
+}
+
+/* 進度條 */
+.progress-track {
+  height: 6px;
+  background-color: #e6e2d8;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: var(--progress-blue);
+  transition: width 0.3s ease;
+}
+
+/* 中間奶茶色組合槽 (Answer Zone) */
+.answer-box {
+  background-color: var(--inner-bg);
+  border-radius: 14px;
+  min-height: 80px;
+  padding: 16px;
+  transition: all 0.2s ease;
+}
+
+/* 橫向排列的可選詞語卡片 (一排過，自動換行) */
+.choice-chip {
+  background-color: #ffffff !important;
+  border: 1.5px solid var(--border-color) !important;
+  color: var(--text-main) !important;
+  border-radius: 10px !important;
+  padding: 8px 18px !important;
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03) !important;
+  transition: all 0.15s ease !important;
+}
+
+@media (hover: hover) {
+  .choice-chip:hover {
+    border-color: var(--forest-green) !important;
+    background-color: #faf8f5 !important;
+    transform: translateY(-1px);
+  }
+}
+
+.choice-chip:active {
+  transform: translateY(1px) scale(0.96);
+}
+
+/* 填入組合槽內部的 Chip */
+.selected-chip {
+  background-color: var(--forest-green) !important;
+  color: #ffffff !important;
+  border: none !important;
+  border-radius: 10px !important;
+  padding: 8px 16px !important;
+  font-weight: 600 !important;
+}
+
+/* 居中的操作按鈕 */
+.btn-next {
+  background-color: var(--btn-next-disabled);
+  color: #ffffff;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 40px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+}
+
+  .btn-next.active {
+    background-color: var(--btn-next-active);
+    box-shadow: 0 4px 12px rgba(30, 74, 56, 0.25);
+  }
+
+/* 最底部「返回主頁」橢圓按鈕 */
+.btn-home-bottom {
+  background-color: #e8e4da;
+  border: 1.5px solid #8c857b;
+  color: #444444;
+  border-radius: 30px;
+  padding: 10px 0;
+  width: 100%;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+  .btn-home-bottom:active {
+    background-color: #ded9cd;
+  }
+
+
+  .btn-home-bottom:hover {
+    background-color: #8c857b;
+    color: #ffffff;
+  }

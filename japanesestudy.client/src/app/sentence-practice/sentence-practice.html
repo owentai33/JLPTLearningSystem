@@ -1,0 +1,149 @@
+<div class="quiz-wrapper">
+  <div class="container" style="max-width: 620px;">
+
+    <!-- 1. 頂部標題與進度條 -->
+    <div class="theme-card p-4 mb-3">
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <h4 class="fw-bold m-0" style="color: var(--text-main);">日文重組句子測驗</h4>
+        <span class="badge-green">
+          題目 {{ isQuizCompleted ? totalQuestionsCount : currentIndex + 1 }}/{{ totalQuestionsCount }}
+        </span>
+      </div>
+
+      <!-- 進度條 -->
+      <div class="progress-track">
+        <div class="progress-fill"
+             [style.width.%]="((currentIndex + (isSubmitted ? 1 : 0)) / totalQuestionsCount) * 100">
+        </div>
+      </div>
+    </div>
+
+    <!-- 2. 測驗主要區塊 -->
+    <div class="theme-card p-4 mb-3">
+
+      <!-- 答題中 -->
+      <ng-container *ngIf="!isQuizCompleted">
+
+        <div class="d-flex justify-content-between align-items-center mb-3">
+          <span class="text-secondary small fw-medium">💡 點擊詞語選擇或剔除，依序重組句子</span>
+          <span class="badge-level fw-bold">{{ currentQuestion?.level }}</span>
+        </div>
+
+        <!-- 組合槽 (奶茶色背景) -->
+        <div class="answer-box mb-4 d-flex flex-wrap align-items-center justify-content-center gap-2">
+          <span *ngIf="userAnswerList.length === 0" class="text-muted small">
+            （請點選下方詞語進行組句...）
+          </span>
+
+          <!-- 點擊移除 -->
+          <button *ngFor="let item of userAnswerList; let i = index"
+                  type="button"
+                  class="btn selected-chip shadow-sm"
+                  [disabled]="isSubmitted"
+                  (click)="removeWord(item, i)">
+            {{ item.text }}
+          </button>
+        </div>
+
+        <!-- 詞語選擇區：維持固定原始順序 -->
+        <div class="d-flex flex-wrap justify-content-center gap-2 mb-4">
+          <ng-container *ngFor="let item of choicesList">
+            <!-- 只有當 item.selected === false 時才顯示，點擊取消時會彈回原本的位置 -->
+            <button *ngIf="!item.selected"
+                    type="button"
+                    class="btn choice-chip"
+                    [disabled]="isSubmitted"
+                    (click)="selectWord(item)">
+              {{ item.text }}
+            </button>
+          </ng-container>
+        </div>
+
+        <!-- 按鈕與結果 (全部文字與按鈕擺返中間) -->
+        <div class="text-center">
+
+          <button *ngIf="!isSubmitted"
+                  class="btn btn-next"
+                  [class.active]="userAnswer.length > 0"
+                  [disabled]="userAnswer.length === 0"
+                  (click)="submitAnswer()">
+            確認答案
+          </button>
+
+          <!-- 答題結果揭曉 -->
+          <div *ngIf="isSubmitted" class="w-100">
+
+            <!-- 答對 -->
+            <div *ngIf="isCorrect" class="p-3 rounded-3 text-center mb-3" style="background-color: #eef7f2; border: 1px solid #c2e5d1;">
+              <span class="fw-bold text-success fs-5">🎉 正確！</span>
+              <div class="fw-bold fs-5 mt-2" style="color: var(--text-main);">{{ currentQuestion?.sentence }}</div>
+              <div class="text-secondary small">{{ currentQuestion?.reading }}</div>
+              <div class="mt-1 text-dark fw-medium">中文意思：{{ currentQuestion?.chinese }}</div>
+            </div>
+
+            <!-- 答錯 -->
+            <div *ngIf="!isCorrect" class="p-3 rounded-3 text-center mb-3" style="background-color: #fcf0f0; border: 1px solid #f2c6c6;">
+              <span class="fw-bold text-danger fs-5">❌ 再接再厲！</span>
+              <div class="small text-muted mt-1">正確答案是：</div>
+              <div class="fw-bold fs-5 mt-1" style="color: var(--text-main);">{{ currentQuestion?.sentence }}</div>
+              <div class="text-secondary small">{{ currentQuestion?.reading }}</div>
+              <div class="mt-1 text-dark fw-medium">中文意思：{{ currentQuestion?.chinese }}</div>
+            </div>
+
+            <!-- 擺返中間的下一題按鈕 -->
+            <button class="btn btn-next active" (click)="nextQuestion()">
+              {{ currentIndex < quizQuestions.length - 1 ? '下一題 ➔' : '查看總結 🏆' }}
+            </button>
+
+          </div>
+
+        </div>
+
+      </ng-container>
+
+      <!-- 3. 結算畫面 -->
+      <div *ngIf="isQuizCompleted" class="py-2 text-center">
+        <div class="fs-1 mb-1">🏆</div>
+        <h4 class="fw-bold mb-1" style="color: var(--text-main);">測驗完成！</h4>
+        <p class="text-secondary mb-4">
+          得分：<span class="fw-bold fs-4" style="color: var(--forest-green);">{{ score }}</span> / {{ totalQuestionsCount }}
+        </p>
+
+        <h6 class="fw-bold text-start mb-3" style="color: var(--text-main);">📝 答題紀錄明細：</h6>
+
+        <div class="d-flex flex-column gap-3 mb-4 text-start">
+          <div *ngFor="let item of quizHistory; let i = index" class="p-3 rounded-3 border bg-white">
+            <div class="d-flex justify-content-between align-items-center mb-1">
+              <span class="fw-bold small text-secondary">第 {{ i + 1 }} 題</span>
+              <span class="badge" [ngClass]="item.isCorrect ? 'bg-success' : 'bg-danger'">
+                {{ item.isCorrect ? '正確 ✓' : '錯誤 ✗' }}
+              </span>
+            </div>
+            <div class="fw-bold text-dark fs-6">{{ item.question.sentence }}</div>
+            <div class="small text-muted mb-2">{{ item.question.chinese }}</div>
+
+            <div class="small p-2 rounded" style="background-color: var(--inner-bg);">
+              <div><strong>你的答案：</strong> {{ item.userAnswer.join(' ') }}</div>
+              <div *ngIf="!item.isCorrect" class="text-danger mt-1">
+                <strong>正確答案：</strong> {{ item.question.answer.join(' ') }}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="btn btn-next active py-2 px-4 fs-6" (click)="startNewQuiz()">
+          🔄 再抽 5 題練習
+        </button>
+      </div>
+
+    </div>
+
+    <!-- 3. 最底部「返回主頁」按鈕 -->
+    <button routerLink="/home"
+            class="btn btn-home-bottom shadow-sm d-flex align-items-center justify-content-center gap-2 rounded-pill">
+      <span>🏠</span>
+      <span>返回主頁</span>
+    </button>
+
+  </div>
+</div>

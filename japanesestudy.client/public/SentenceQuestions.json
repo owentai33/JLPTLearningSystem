@@ -1,0 +1,1702 @@
+[
+  {
+    "id": 1,
+    "level": "N5",
+    "category": "Daily Life",
+    "difficulty": 1,
+    "english": "I get up at 6 o'clock in the morning.",
+    "chinese": "我早上6點起床。",
+    "sentence": "私は朝６時に起きます。",
+    "reading": "わたしはあさろくじにおきます。",
+    "answer": [
+      "私は",
+      "朝",
+      "６時に",
+      "起きます"
+    ],
+    "choices": [
+      "６時に",
+      "私は",
+      "起きます",
+      "朝"
+    ]
+  },
+  {
+    "id": 2,
+    "level": "N5",
+    "category": "Daily Life",
+    "difficulty": 1,
+    "english": "I borrowed a book at the library yesterday.",
+    "chinese": "我昨天在圖書館借了書。",
+    "sentence": "昨日図書館で本を借りました。",
+    "reading": "きのうとしょかんでほんをかりました。",
+    "answer": [
+      "昨日",
+      "図書館で",
+      "本を",
+      "借りました"
+    ],
+    "choices": [
+      "借りました",
+      "本を",
+      "昨日",
+      "図書館で"
+    ]
+  },
+  {
+    "id": 3,
+    "level": "N5",
+    "category": "Food & Drink",
+    "difficulty": 1,
+    "english": "This cake is very delicious.",
+    "chinese": "這個蛋糕非常好吃。",
+    "sentence": "このケーキはとても美味しいです。",
+    "reading": "このケーキはとてもおいしいです。",
+    "answer": [
+      "このケーキは",
+      "とても",
+      "美味しい",
+      "です"
+    ],
+    "choices": [
+      "美味しい",
+      "このケーキは",
+      "です",
+      "とても"
+    ]
+  },
+  {
+    "id": 4,
+    "level": "N5",
+    "category": "Food & Drink",
+    "difficulty": 1,
+    "english": "I drink coffee every morning.",
+    "chinese": "我每天早上喝咖啡。",
+    "sentence": "私は毎朝コーヒーを飲みます。",
+    "reading": "わたしはまいあさコーヒーをのみます。",
+    "answer": [
+      "私は",
+      "毎朝",
+      "コーヒーを",
+      "飲みます"
+    ],
+    "choices": [
+      "コーヒーを",
+      "飲みます",
+      "私は",
+      "毎朝"
+    ]
+  },
+  {
+    "id": 5,
+    "level": "N5",
+    "category": "Hobbies & Leisure",
+    "difficulty": 1,
+    "english": "I will watch a movie with my friend tomorrow.",
+    "chinese": "我明天要跟朋友看電影。",
+    "sentence": "明日友達と映画を見ます。",
+    "reading": "あしたともだちとえいがをみます。",
+    "answer": [
+      "明日",
+      "友達と",
+      "映画を",
+      "見ます"
+    ],
+    "choices": [
+      "映画を",
+      "明日",
+      "見ます",
+      "友達と"
+    ]
+  },
+  {
+    "id": 6,
+    "level": "N5",
+    "category": "Daily Life",
+    "difficulty": 1,
+    "english": "There is a large table in the room.",
+    "chinese": "房間裡有一張大桌子。",
+    "sentence": "部屋に大きなテーブルがあります。",
+    "reading": "へやにおおきなテーブルがあります。",
+    "answer": [
+      "部屋に",
+      "大きな",
+      "テーブルが",
+      "あります"
+    ],
+    "choices": [
+      "テーブルが",
+      "部屋に",
+      "あります",
+      "大きな"
+    ]
+  },
+  {
+    "id": 7,
+    "level": "N5",
+    "category": "Daily Life",
+    "difficulty": 1,
+    "english": "There are two dogs in the garden.",
+    "chinese": "院子裡有兩隻狗。",
+    "sentence": "庭に犬が二匹います。",
+    "reading": "にわにいぬがにひきいます。",
+    "answer": [
+      "庭に",
+      "犬が",
+      "二匹",
+      "います"
+    ],
+    "choices": [
+      "二匹",
+      "庭に",
+      "います",
+      "犬が"
+    ]
+  },
+  {
+    "id": 8,
+    "level": "N5",
+    "category": "Weather",
+    "difficulty": 2,
+    "english": "It was raining yesterday.",
+    "chinese": "昨天一直在下雨。",
+    "sentence": "昨日は雨が降っていました。",
+    "reading": "きのうはあめがふっていました。",
+    "answer": [
+      "昨日は",
+      "雨が",
+      "降って",
+      "いました"
+    ],
+    "choices": [
+      "降って",
+      "昨日は",
+      "いました",
+      "雨が"
+    ]
+  },
+  {
+    "id": 9,
+    "level": "N5",
+    "category": "Shopping",
+    "difficulty": 2,
+    "english": "This book was not very expensive.",
+    "chinese": "這本書不太貴。",
+    "sentence": "この本はあまり高くなかったです。",
+    "reading": "このほんはあまりたかくなかったです。",
+    "answer": [
+      "この本は",
+      "あまり",
+      "高くなかった",
+      "です"
+    ],
+    "choices": [
+      "高くなかった",
+      "この本は",
+      "です",
+      "あまり"
+    ]
+  },
+  {
+    "id": 10,
+    "level": "N5",
+    "category": "Transport",
+    "difficulty": 1,
+    "english": "I go from the station to the office on foot.",
+    "chinese": "我從車站走路去公司。",
+    "sentence": "駅から会社まで歩いて行きます。",
+    "reading": "えきからかいしゃまであるいていきます。",
+    "answer": [
+      "駅から",
+      "会社まで",
+      "歩いて",
+      "行きます"
+    ],
+    "choices": [
+      "歩いて",
+      "駅から",
+      "行きます",
+      "会社まで"
+    ]
+  },
+  {
+    "id": 11,
+    "level": "N5",
+    "category": "Shopping",
+    "difficulty": 1,
+    "english": "I bought fresh fish at the supermarket.",
+    "chinese": "我在超級市場買了新鮮的魚。",
+    "sentence": "スーパーで新鮮な魚を買いました。",
+    "reading": "スーパーでしんせんなさかなをかいました。",
+    "answer": [
+      "スーパーで",
+      "新鮮な",
+      "魚を",
+      "買いました"
+    ],
+    "choices": [
+      "魚を",
+      "スーパーで",
+      "買いました",
+      "新鮮な"
+    ]
+  },
+  {
+    "id": 12,
+    "level": "N5",
+    "category": "Family & People",
+    "difficulty": 1,
+    "english": "My older brother is an office worker.",
+    "chinese": "我的哥哥是公司職員。",
+    "sentence": "私の兄は会社員です。",
+    "reading": "わたしのあにはかいしゃいんです。",
+    "answer": [
+      "私の",
+      "兄は",
+      "会社員",
+      "です"
+    ],
+    "choices": [
+      "会社員",
+      "私の",
+      "です",
+      "兄は"
+    ]
+  },
+  {
+    "id": 13,
+    "level": "N5",
+    "category": "Family & People",
+    "difficulty": 2,
+    "english": "My younger sister can play the piano.",
+    "chinese": "我的妹妹會彈鋼琴。",
+    "sentence": "妹はピアノを弾くことができます。",
+    "reading": "いもうとはピアノをひくことができます。",
+    "answer": [
+      "妹は",
+      "ピアノを",
+      "弾くことが",
+      "できます"
+    ],
+    "choices": [
+      "弾くことが",
+      "妹は",
+      "できます",
+      "ピアノを"
+    ]
+  },
+  {
+    "id": 14,
+    "level": "N5",
+    "category": "Food & Drink",
+    "difficulty": 2,
+    "english": "Would you like to drink tea together?",
+    "chinese": "要不要一起喝杯茶？",
+    "sentence": "一緒にお茶を飲みませんか。",
+    "reading": "いっしょにおちゃをのみませんか。",
+    "answer": [
+      "一緖に",
+      "お茶を",
+      "飲み",
+      "ませんか"
+    ],
+    "choices": [
+      "お茶を",
+      "ませんか",
+      "一緖に",
+      "飲み"
+    ]
+  },
+  {
+    "id": 15,
+    "level": "N5",
+    "category": "Food & Drink",
+    "difficulty": 1,
+    "english": "Excuse me, please give me cold water.",
+    "chinese": "不好意思，請給我冰水。",
+    "sentence": "すみません、冷たい水をください。",
+    "reading": "すみません、つめたいみずをください。",
+    "answer": [
+      "すみません、",
+      "冷たい",
+      "水を",
+      "ください"
+    ],
+    "choices": [
+      "水を",
+      "すみません、",
+      "ください",
+      "冷たい"
+    ]
+  },
+  {
+    "id": 16,
+    "level": "N5",
+    "category": "Time & Schedule",
+    "difficulty": 1,
+    "english": "The department store is open from 9 to 6.",
+    "chinese": "百貨公司從9點營業到6點。",
+    "sentence": "デパートは九時から六時までです。",
+    "reading": "デパートはくじからろくじまでです。",
+    "answer": [
+      "デパートは",
+      "九時から",
+      "六時まで",
+      "です"
+    ],
+    "choices": [
+      "六時まで",
+      "デパートは",
+      "です",
+      "九時から"
+    ]
+  },
+  {
+    "id": 17,
+    "level": "N5",
+    "category": "Weather",
+    "difficulty": 1,
+    "english": "Today's weather is very nice.",
+    "chinese": "今天的天氣很好。",
+    "sentence": "今日の天気はとてもいいです。",
+    "reading": "きょうのてんきはとてもいいです。",
+    "answer": [
+      "今日の",
+      "天気は",
+      "とても",
+      "いいです"
+    ],
+    "choices": [
+      "いいです",
+      "今日の",
+      "とても",
+      "天気は"
+    ]
+  },
+  {
+    "id": 18,
+    "level": "N5",
+    "category": "Daily Life",
+    "difficulty": 2,
+    "english": "I am studying Japanese in the classroom.",
+    "chinese": "我正在教室學習日語。",
+    "sentence": "教室で日本語を勉強しています。",
+    "reading": "きょうしつでにほんごをべんきょうしています。",
+    "answer": [
+      "教室で",
+      "日本語を",
+      "勉強して",
+      "います"
+    ],
+    "choices": [
+      "勉強して",
+      "教室で",
+      "います",
+      "日本語を"
+    ]
+  },
+  {
+    "id": 19,
+    "level": "N5",
+    "category": "Shopping",
+    "difficulty": 1,
+    "english": "I go to the department store to shop on Sundays.",
+    "chinese": "我星期日去百貨公司購物。",
+    "sentence": "日曜日にデパートへ買い物に行きます。",
+    "reading": "にちようびにデパートへかいものにいきます。",
+    "answer": [
+      "日曜日に",
+      "デパートへ",
+      "買い物に",
+      "行きます"
+    ],
+    "choices": [
+      "買い物に",
+      "日曜日に",
+      "行きます",
+      "デパートへ"
+    ]
+  },
+  {
+    "id": 20,
+    "level": "N5",
+    "category": "Family & People",
+    "difficulty": 1,
+    "english": "My father drinks a little alcohol every night.",
+    "chinese": "我爸爸每天晚上喝一點酒。",
+    "sentence": "父は毎晩お酒を少し飲みます。",
+    "reading": "ちちはまいばんおさけをすこしのみます。",
+    "answer": [
+      "父は",
+      "毎晩",
+      "お酒を",
+      "少し飲みます"
+    ],
+    "choices": [
+      "少し飲みます",
+      "毎晩",
+      "父は",
+      "お酒を"
+    ]
+  },
+  {
+    "id": 21,
+    "level": "N5",
+    "category": "Family & People",
+    "difficulty": 1,
+    "english": "My mother is very good at cooking.",
+    "chinese": "我媽媽非常擅長做菜。",
+    "sentence": "母は料理がとても上手です。",
+    "reading": "はははりょうりがとてもじょうずです。",
+    "answer": [
+      "母は",
+      "料理が",
+      "とても",
+      "上手です"
+    ],
+    "choices": [
+      "とても",
+      "母は",
+      "上手です",
+      "料理が"
+    ]
+  },
+  {
+    "id": 22,
+    "level": "N5",
+    "category": "Shopping",
+    "difficulty": 2,
+    "english": "I think these clothes are a bit big.",
+    "chinese": "我覺得這件衣服有點大。",
+    "sentence": "この服は少し大きいと思います。",
+    "reading": "このふくはすこしおおきいとおもいます。",
+    "answer": [
+      "この服は",
+      "少し",
+      "大きいと",
+      "思います"
+    ],
+    "choices": [
+      "大きいと",
+      "この服は",
+      "思います",
+      "少し"
+    ]
+  },
+  {
+    "id": 23,
+    "level": "N5",
+    "category": "Hobbies & Leisure",
+    "difficulty": 1,
+    "english": "I took a lot of photos in the park.",
+    "chinese": "我在公園拍了很多照片。",
+    "sentence": "公園で写真をたくさん撮りました。",
+    "reading": "こうえんでしゃしんをたくさんとりました。",
+    "answer": [
+      "公園で",
+      "写真を",
+      "たくさん",
+      "撮りました"
+    ],
+    "choices": [
+      "たくさん",
+      "公園で",
+      "撮りました",
+      "写真を"
+    ]
+  },
+  {
+    "id": 24,
+    "level": "N5",
+    "category": "Hobbies & Leisure",
+    "difficulty": 2,
+    "english": "I like singing songs.",
+    "chinese": "我喜歡唱歌。",
+    "sentence": "私は歌を歌うのが好きです。",
+    "reading": "わたしはうたをうたうのがすきです。",
+    "answer": [
+      "私は",
+      "歌を",
+      "歌うのが",
+      "好きです"
+    ],
+    "choices": [
+      "歌うのが",
+      "私は",
+      "好きです",
+      "歌を"
+    ]
+  },
+  {
+    "id": 25,
+    "level": "N5",
+    "category": "Daily Life",
+    "difficulty": 1,
+    "english": "There is a cute bird in the tree.",
+    "chinese": "樹上有一隻可愛的小鳥。",
+    "sentence": "木の上に可愛い鳥がいます。",
+    "reading": "きのうえにかわいいとりがいます。",
+    "answer": [
+      "木の上に",
+      "可愛い",
+      "鳥が",
+      "います"
+    ],
+    "choices": [
+      "鳥が",
+      "木の上に",
+      "います",
+      "可愛い"
+    ]
+  },
+  {
+    "id": 26,
+    "level": "N5",
+    "category": "Daily Life",
+    "difficulty": 2,
+    "english": "May I use the dictionary here?",
+    "chinese": "我可以在這裡使用字典嗎？",
+    "sentence": "ここで辞書を使ってもいいですか。",
+    "reading": "ここでおじしょをつかってもいいですか。",
+    "answer": [
+      "ここで",
+      "辞書を",
+      "使っても",
+      "いいですか"
+    ],
+    "choices": [
+      "使っても",
+      "ここで",
+      "いいですか",
+      "辞書を"
+    ]
+  },
+  {
+    "id": 27,
+    "level": "N5",
+    "category": "Daily Life",
+    "difficulty": 2,
+    "english": "Please do not smoke in the room.",
+    "chinese": "請不要在房間裡吸煙。",
+    "sentence": "部屋でタバコを吸わないでください。",
+    "reading": "へやでタバコをすわないでください。",
+    "answer": [
+      "部屋で",
+      "タバコを",
+      "吸わないで",
+      "ください"
+    ],
+    "choices": [
+      "吸わないで",
+      "部屋で",
+      "ください",
+      "タバコを"
+    ]
+  },
+  {
+    "id": 28,
+    "level": "N5",
+    "category": "Daily Life",
+    "difficulty": 2,
+    "english": "Yesterday's test was very difficult.",
+    "chinese": "昨天的測驗非常難。",
+    "sentence": "昨日のテストはとても難しかったです。",
+    "reading": "きのうのテストはとてもむずかしかったです。",
+    "answer": [
+      "昨日の",
+      "テストは",
+      "とても",
+      "難しかったです"
+    ],
+    "choices": [
+      "難しかったです",
+      "昨日の",
+      "テストは",
+      "とても"
+    ]
+  },
+  {
+    "id": 29,
+    "level": "N5",
+    "category": "Time & Schedule",
+    "difficulty": 1,
+    "english": "I go to bed at 10 o'clock every night.",
+    "chinese": "我每天晚上10點睡覺。",
+    "sentence": "私は毎晩十時に寝ます。",
+    "reading": "わたしはまいばんじゅうじにねます。",
+    "answer": [
+      "私は",
+      "毎晩",
+      "十時に",
+      "寝ます"
+    ],
+    "choices": [
+      "十時に",
+      "私は",
+      "寝ます",
+      "毎晩"
+    ]
+  },
+  {
+    "id": 30,
+    "level": "N5",
+    "category": "Hobbies & Leisure",
+    "difficulty": 1,
+    "english": "There is a party next Saturday.",
+    "chinese": "下星期六有派對。",
+    "sentence": "来週の土曜日にパーティーがあります。",
+    "reading": "らいしゅうのどようびにパーティーがあります。",
+    "answer": [
+      "来週の",
+      "土曜日に",
+      "パーティーが",
+      "あります"
+    ],
+    "choices": [
+      "パーティーが",
+      "来週の",
+      "あります",
+      "土曜日に"
+    ]
+  },
+  {
+    "id": 31,
+    "level": "N5",
+    "category": "Transport",
+    "difficulty": 2,
+    "english": "I took a red bus to the hospital.",
+    "chinese": "我搭乘紅色的巴士去了醫院。",
+    "sentence": "赤いバスに乗って病院へ行きました。",
+    "reading": "あかいバスにのってびょういんへいきました。",
+    "answer": [
+      "赤い",
+      "バスに乗って",
+      "病院へ",
+      "行きました"
+    ],
+    "choices": [
+      "病院へ",
+      "赤い",
+      "行きました",
+      "バスに乗って"
+    ]
+  },
+  {
+    "id": 32,
+    "level": "N5",
+    "category": "Shopping",
+    "difficulty": 1,
+    "english": "I bought three sweet apples.",
+    "chinese": "我買了三個甜蘋果。",
+    "sentence": "甘いリンゴを三つ買いました。",
+    "reading": "あまいリンゴをみっつかいました。",
+    "answer": [
+      "甘い",
+      "リンゴを",
+      "三つ",
+      "買いました"
+    ],
+    "choices": [
+      "三つ",
+      "甘い",
+      "買いました",
+      "リンゴを"
+    ]
+  },
+  {
+    "id": 33,
+    "level": "N5",
+    "category": "Daily Life",
+    "difficulty": 1,
+    "english": "I wrote a letter to my Japanese friend.",
+    "chinese": "我給我的日本朋友寫了信。",
+    "sentence": "日本の友達に手紙を書きました。",
+    "reading": "にほんのともだちにてがみをかきました。",
+    "answer": [
+      "日本の",
+      "友達に",
+      "手紙を",
+      "書きました"
+    ],
+    "choices": [
+      "手紙を",
+      "日本の",
+      "書きました",
+      "友達に"
+    ]
+  },
+  {
+    "id": 34,
+    "level": "N5",
+    "category": "Daily Life",
+    "difficulty": 2,
+    "english": "I want to speak English fluently.",
+    "chinese": "我想流利地說英語。",
+    "sentence": "私は英語を上手に話したいです。",
+    "reading": "わたしはえいごをじょうずにはなしたいです。",
+    "answer": [
+      "私は",
+      "英語を",
+      "上手に",
+      "話したいです"
+    ],
+    "choices": [
+      "上手に",
+      "私は",
+      "話したいです",
+      "英語を"
+    ]
+  },
+  {
+    "id": 35,
+    "level": "N5",
+    "category": "Daily Life",
+    "difficulty": 2,
+    "english": "This new room is spacious and bright.",
+    "chinese": "這個新房間又寬敞又明亮。",
+    "sentence": "この新しい部屋は広くて明るいです。",
+    "reading": "このあたらしいへやはひろくてあかるいです。",
+    "answer": [
+      "この新しい",
+      "部屋は",
+      "広くて",
+      "明るいです"
+    ],
+    "choices": [
+      "明るいです",
+      "この新しい",
+      "部屋は",
+      "広くて"
+    ]
+  },
+  {
+    "id": 36,
+    "level": "N5",
+    "category": "Weather",
+    "difficulty": 1,
+    "english": "It is very cold outside today.",
+    "chinese": "今天外面非常冷。",
+    "sentence": "今日の外はとても寒いです。",
+    "reading": "きょうのそとはとてもさむいです。",
+    "answer": [
+      "今日の",
+      "外は",
+      "とても",
+      "寒いです"
+    ],
+    "choices": [
+      "寒いです",
+      "今日の",
+      "とても",
+      "外は"
+    ]
+  },
+  {
+    "id": 37,
+    "level": "N5",
+    "category": "Daily Life",
+    "difficulty": 2,
+    "english": "I clean while listening to music.",
+    "chinese": "我一邊聽音樂一邊打掃衛生。",
+    "sentence": "音楽を聞きながら掃除をします。",
+    "reading": "おんがくをききながらそうじをします。",
+    "answer": [
+      "音楽を",
+      "聞きながら",
+      "掃除を",
+      "します"
+    ],
+    "choices": [
+      "掃除を",
+      "音楽を",
+      "します",
+      "聞きながら"
+    ]
+  },
+  {
+    "id": 38,
+    "level": "N5",
+    "category": "Family & People",
+    "difficulty": 1,
+    "english": "I received a beautiful gift from my friend.",
+    "chinese": "我從朋友那裡收到了一個漂亮的禮物。",
+    "sentence": "友達から綺麗なプレゼントをもらいました。",
+    "reading": "ともだちからきれいなプレゼントをもらいました。",
+    "answer": [
+      "友達から",
+      "綺麗な",
+      "プレゼントを",
+      "もらいました"
+    ],
+    "choices": [
+      "プレゼントを",
+      "友達から",
+      "もらいました",
+      "綺麗な"
+    ]
+  },
+  {
+    "id": 39,
+    "level": "N5",
+    "category": "Daily Life",
+    "difficulty": 1,
+    "english": "There is a key inside the black bag.",
+    "chinese": "黑色包包裡面有鑰匙。",
+    "sentence": "黒いカバンのの中に鍵があります。",
+    "reading": "くろいカバンのなかにかぎがあります。",
+    "answer": [
+      "黒い",
+      "カバンのの中に",
+      "鍵が",
+      "あります"
+    ],
+    "choices": [
+      "鍵が",
+      "黒い",
+      "あります",
+      "カバンのの中に"
+    ]
+  },
+  {
+    "id": 40,
+    "level": "N5",
+    "category": "Family & People",
+    "difficulty": 1,
+    "english": "My younger brother is tall.",
+    "chinese": "我的弟弟身高很高。",
+    "sentence": "私の弟は背が高いです。",
+    "reading": "わたしのおとうとはせがたかいです。",
+    "answer": [
+      "私の",
+      "弟は",
+      "背が",
+      "高いです"
+    ],
+    "choices": [
+      "高いです",
+      "私の",
+      "背が",
+      "弟は"
+    ]
+  },
+  {
+    "id": 41,
+    "level": "N5",
+    "category": "Food & Drink",
+    "difficulty": 2,
+    "english": "Among Japanese dishes, I like sushi the most.",
+    "chinese": "日本料理中，我最喜歡壽司。",
+    "sentence": "日本料理の中で寿司が一番好きです。",
+    "reading": "にほんりょうりのなかですしがいちばんすきです。",
+    "answer": [
+      "日本料理の",
+      "中で",
+      "寿司が一番",
+      "好きです"
+    ],
+    "choices": [
+      "寿司が一番",
+      "日本料理の",
+      "好きです",
+      "中で"
+    ]
+  },
+  {
+    "id": 42,
+    "level": "N5",
+    "category": "Daily Life",
+    "difficulty": 2,
+    "english": "May I open the window a little bit?",
+    "chinese": "我可以打開一點窗戶嗎？",
+    "sentence": "少し窓を開けてもいいですか。",
+    "reading": "すこしまどをあけてもいいですか。",
+    "answer": [
+      "少し",
+      "窓を",
+      "開けても",
+      "いいですか"
+    ],
+    "choices": [
+      "開けても",
+      "少し",
+      "いいですか",
+      "窓を"
+    ]
+  },
+  {
+    "id": 43,
+    "level": "N5",
+    "category": "Daily Life",
+    "difficulty": 2,
+    "english": "Please do not forget tomorrow's homework.",
+    "chinese": "請不要忘記明天的作業。",
+    "sentence": "明日の宿題を忘れないでください。",
+    "reading": "あしたのしゅくだいをわすれないでください。",
+    "answer": [
+      "明日の",
+      "宿題を",
+      "忘れないで",
+      "ください"
+    ],
+    "choices": [
+      "忘れないで",
+      "明日の",
+      "ください",
+      "宿題を"
+    ]
+  },
+  {
+    "id": 44,
+    "level": "N5",
+    "category": "Daily Life",
+    "difficulty": 2,
+    "english": "Since the room is hot, let's turn on the air conditioner.",
+    "chinese": "因為房間很熱，我們開冷氣吧。",
+    "sentence": "部屋が暑いですからエアコンをつけましょう。",
+    "reading": "へやがあついですからエアコンをつけましょう。",
+    "answer": [
+      "部屋が",
+      "暑いですから",
+      "エアコンを",
+      "つけましょう"
+    ],
+    "choices": [
+      "エアコンを",
+      "部屋が",
+      "つけましょう",
+      "暑いですから"
+    ]
+  },
+  {
+    "id": 45,
+    "level": "N5",
+    "category": "Family & People",
+    "difficulty": 2,
+    "english": "I gave a watch to my younger brother on his birthday.",
+    "chinese": "我在弟弟生日時給了他一隻手錶。",
+    "sentence": "誕生日に弟へ時計をあげました。",
+    "reading": "たんじょうびにおとうとへとけいをあげました。",
+    "answer": [
+      "誕生日に",
+      "弟へ",
+      "時計を",
+      "あげました"
+    ],
+    "choices": [
+      "時計を",
+      "誕生日に",
+      "あげました",
+      "弟へ"
+    ]
+  },
+  {
+    "id": 46,
+    "level": "N5",
+    "category": "Travel",
+    "difficulty": 2,
+    "english": "Tokyo had many people last year.",
+    "chinese": "去年的東京人很多。",
+    "sentence": "去年の東京は人が多かったです。",
+    "reading": "きょねんのとうきょうはひとがおおかったです。",
+    "answer": [
+      "去年の",
+      "東京は",
+      "人が",
+      "多かったです"
+    ],
+    "choices": [
+      "人が",
+      "去年の",
+      "多かったです",
+      "東京は"
+    ]
+  },
+  {
+    "id": 47,
+    "level": "N5",
+    "category": "Daily Life",
+    "difficulty": 1,
+    "english": "I slept for 8 hours last night.",
+    "chinese": "我昨晚睡了8個小時。",
+    "sentence": "昨日の夜は八時間寝ました。",
+    "reading": "きのうのよるははちじかんねました。",
+    "answer": [
+      "昨日の",
+      "夜は",
+      "八時間",
+      "寝ました"
+    ],
+    "choices": [
+      "八時間",
+      "昨日の",
+      "寝ました",
+      "夜は"
+    ]
+  },
+  {
+    "id": 48,
+    "level": "N5",
+    "category": "Daily Life",
+    "difficulty": 2,
+    "english": "I asked the kind teacher a question.",
+    "chinese": "我向親切的老師提問了。",
+    "sentence": "親切な先生に質問をしました。",
+    "reading": "しんせつなせんせいにしつもんをしました。",
+    "answer": [
+      "親切な",
+      "先生に",
+      "質問を",
+      "しました"
+    ],
+    "choices": [
+      "質問を",
+      "親切な",
+      "しました",
+      "先生に"
+    ]
+  },
+  {
+    "id": 49,
+    "level": "N5",
+    "category": "Daily Life",
+    "difficulty": 1,
+    "english": "That red car is very cool.",
+    "chinese": "那輛紅色的車非常帥氣。",
+    "sentence": "あの赤い車はとてもかっこいいです。",
+    "reading": "あのあかいくるまはとてもかっこいいです。",
+    "answer": [
+      "あの赤い",
+      "車は",
+      "とても",
+      "かっこいいです"
+    ],
+    "choices": [
+      "かっこいいです",
+      "あの赤い",
+      "とても",
+      "車は"
+    ]
+  },
+  {
+    "id": 50,
+    "level": "N5",
+    "category": "Time & Schedule",
+    "difficulty": 1,
+    "english": "The company is closed tomorrow.",
+    "chinese": "明天公司放假。",
+    "sentence": "明日は会社が休みです。",
+    "reading": "あしたはかいしゃがやすみです。",
+    "answer": [
+      "明日は",
+      "会社が",
+      "休み",
+      "です"
+    ],
+    "choices": [
+      "休み",
+      "明日は",
+      "です",
+      "会社が"
+    ]
+  },
+  {
+    "id": 51,
+    "level": "N4",
+    "category": "Grammar",
+    "difficulty": 1,
+    "english": "I think it will rain tomorrow.",
+    "chinese": "我想明天會下雨。",
+    "sentence": "明日は雨が降ると思います。",
+    "reading": "あしたはあめがふるとおもいます。",
+    "answer": [ "明日は", "雨が", "降ると", "思います" ],
+    "choices": [ "降ると", "明日は", "思います", "雨が" ]
+  },
+  {
+    "id": 52,
+    "level": "N4",
+    "category": "Grammar",
+    "difficulty": 2,
+    "english": "I want to become able to speak Japanese fluently.",
+    "chinese": "我想變得能流利地說日語。",
+    "sentence": "日本語を上手に話せるようになりたいです。",
+    "reading": "にほんごをじょうずにはなせるようになりたいです。",
+    "answer": [ "日本語を", "上手に", "話せるように", "なりたいです" ],
+    "choices": [ "話せるように", "日本語を", "なりたいです", "上手に" ]
+  },
+  {
+    "id": 53,
+    "level": "N4",
+    "category": "Daily Life",
+    "difficulty": 2,
+    "english": "I make it a rule to practice Kanji every day.",
+    "chinese": "我堅持每天練習漢字。",
+    "sentence": "毎日漢字を練習することにしています。",
+    "reading": "まいにちかんじをれんしゅうすることにしています。",
+    "answer": [ "毎日", "漢字を", "練習することに", "しています" ],
+    "choices": [ "練習することに", "毎日", "しています", "漢字を" ]
+  },
+  {
+    "id": 54,
+    "level": "N4",
+    "category": "Daily Life",
+    "difficulty": 1,
+    "english": "Please turn off the light before going to bed.",
+    "chinese": "睡覺前請關燈。",
+    "sentence": "寝る前に電気を消してください。",
+    "reading": "ねるまえにでんきをけしてください。",
+    "answer": [ "寝る前に", "電気を", "消して", "ください" ],
+    "choices": [ "電気を", "消して", "寝る前に", "ください" ]
+  },
+  {
+    "id": 55,
+    "level": "N4",
+    "category": "Travel",
+    "difficulty": 1,
+    "english": "I plan to travel to Japan next year.",
+    "chinese": "我打算明年去日本旅行。",
+    "sentence": "来年日本へ旅行に行くつもりです。",
+    "reading": "らいねんにほんへりょこうにいくつもりです。",
+    "answer": [ "来年", "日本へ", "旅行に", "行くつもりです" ],
+    "choices": [ "行くつもりです", "来年", "旅行に", "日本へ" ]
+  },
+  {
+    "id": 56,
+    "level": "N4",
+    "category": "Health",
+    "difficulty": 1,
+    "english": "You had better take some medicine.",
+    "chinese": "你最好吃點藥。",
+    "sentence": "薬を飲んだほうがいいですよ。",
+    "reading": "くすりをのんだほうがいいですよ。",
+    "answer": [ "薬を", "飲んだ", "ほうがいい", "ですよ" ],
+    "choices": [ "ほうがいい", "薬を", "ですよ", "飲んだ" ]
+  },
+  {
+    "id": 57,
+    "level": "N4",
+    "category": "Hobbies",
+    "difficulty": 1,
+    "english": "On weekends, I do things like reading books and taking walks.",
+    "chinese": "週末我會看書、散步等等。",
+    "sentence": "週末は本を読んだり散歩したりします。",
+    "reading": "しゅうまつはほんをよんだりさんぽしたりします。",
+    "answer": [ "週末は", "本を読んだり", "散歩したり", "します" ],
+    "choices": [ "散歩したり", "週末は", "します", "本を読んだり" ]
+  },
+  {
+    "id": 58,
+    "level": "N4",
+    "category": "Daily Life",
+    "difficulty": 1,
+    "english": "I eat meals after washing my hands.",
+    "chinese": "洗完手後吃飯。",
+    "sentence": "手を洗ってからご飯を食べます。",
+    "reading": "てをあらってからごはんをたべます。",
+    "answer": [ "手を", "洗ってから", "ご飯を", "食べます" ],
+    "choices": [ "ご飯を", "手を", "食べます", "洗ってから" ]
+  },
+  {
+    "id": 59,
+    "level": "N4",
+    "category": "Rules",
+    "difficulty": 1,
+    "english": "You must not take photos here.",
+    "chinese": "不可以在這裡拍照。",
+    "sentence": "ここで写真を撮ってはいけません。",
+    "reading": "ここでしゃしんをとってはいけません。",
+    "answer": [ "ここで", "写真を", "撮っては", "いけません" ],
+    "choices": [ "撮っては", "ここで", "いけません", "写真を" ]
+  },
+  {
+    "id": 60,
+    "level": "N4",
+    "category": "Rules",
+    "difficulty": 1,
+    "english": "Please do not speak loudly in the library.",
+    "chinese": "請不要在圖書館大聲講話。",
+    "sentence": "図書館で大声で話さないでください。",
+    "reading": "としょかんでおおごえではなさないでください。",
+    "answer": [ "図書館で", "大声で", "話さないで", "ください" ],
+    "choices": [ "話さないで", "図書館で", "ください", "大声で" ]
+  },
+  {
+    "id": 61,
+    "level": "N4",
+    "category": "Permissions",
+    "difficulty": 1,
+    "english": "May I enter this room?",
+    "chinese": "我可以進這間房間嗎？",
+    "sentence": "この部屋に入ってもいいですか。",
+    "reading": "このへやにはいってもいいですか。",
+    "answer": [ "この部屋に", "入っても", "いい", "ですか" ],
+    "choices": [ "いい", "この部屋に", "ですか", "入っても" ]
+  },
+  {
+    "id": 62,
+    "level": "N4",
+    "category": "Permissions",
+    "difficulty": 1,
+    "english": "You may use a dictionary.",
+    "chinese": "使用字典也無妨。",
+    "sentence": "辞書を使っても構いません。",
+    "reading": "じしょをつかってもかまいません。",
+    "answer": [ "辞書を", "使っても", "構い", "ません" ],
+    "choices": [ "構い", "辞書を", "ません", "使っても" ]
+  },
+  {
+    "id": 63,
+    "level": "N4",
+    "category": "Grammar",
+    "difficulty": 1,
+    "english": "If it rains, I will not go out.",
+    "chinese": "如果下雨的話我就不出門。",
+    "sentence": "雨が降ったら出かけません。",
+    "reading": "あめがふったらでかけません。",
+    "answer": [ "雨が", "降ったら", "出かけ", "ません" ],
+    "choices": [ "出かけ", "雨が", "ません", "降ったら" ]
+  },
+  {
+    "id": 64,
+    "level": "N4",
+    "category": "Shopping",
+    "difficulty": 1,
+    "english": "If it's cheap, I want to buy it.",
+    "chinese": "如果便宜的話我想買。",
+    "sentence": "安かったら買いたいです。",
+    "reading": "やすかったらかいたいですか。",
+    "answer": [ "安かったら", "買い", "たい", "です" ],
+    "choices": [ "たい", "安かったら", "です", "買い" ]
+  },
+  {
+    "id": 65,
+    "level": "N4",
+    "category": "Grammar",
+    "difficulty": 2,
+    "english": "If you have time, let's go together.",
+    "chinese": "如果有時間的話，我們一起去吧。",
+    "sentence": "時間があれば一緒に行きましょう。",
+    "reading": "じかんがあればいっしょにいきましょう。",
+    "answer": [ "時間が", "あれば", "一緒に", "行きましょう" ],
+    "choices": [ "一緒に", "時間が", "行きましょう", "あれば" ]
+  },
+  {
+    "id": 66,
+    "level": "N4",
+    "category": "Study",
+    "difficulty": 2,
+    "english": "It takes time to look up words in the dictionary.",
+    "chinese": "查字典需要花時間。",
+    "sentence": "辞書を引くのに時間がかかります。",
+    "reading": "じしょをひくのにじかんがかかります。",
+    "answer": [ "辞書を", "引くのに", "時間が", "かかります" ],
+    "choices": [ "時間が", "辞書を", "かかります", "引くのに" ]
+  },
+  {
+    "id": 67,
+    "level": "N4",
+    "category": "Health",
+    "difficulty": 2,
+    "english": "I exercise every day for my health.",
+    "chinese": "為了健康，我每天運動。",
+    "sentence": "健康のために毎日運動しています。",
+    "reading": "けんこうのためにまいにちうんどうしています。",
+    "answer": [ "健康のために", "毎日", "運動して", "います" ],
+    "choices": [ "運動して", "健康のために", "います", "毎日" ]
+  },
+  {
+    "id": 68,
+    "level": "N4",
+    "category": "Health",
+    "difficulty": 2,
+    "english": "Please be careful not to catch a cold.",
+    "chinese": "請小心不要感冒。",
+    "sentence": "風邪を引かないように気をつけてください。",
+    "reading": "かぜをひかないようにきをつけてください。",
+    "answer": [ "風邪を", "引かないように", "気をつけて", "ください" ],
+    "choices": [ "気をつけて", "風邪を", "ください", "引かないように" ]
+  },
+  {
+    "id": 69,
+    "level": "N4",
+    "category": "Study",
+    "difficulty": 1,
+    "english": "This book is interesting and easy to read.",
+    "chinese": "這本書有趣而且容易閱讀。",
+    "sentence": "この本は面白くて読みやすいです。",
+    "reading": "このほんはおもしろくてよみやすいです。",
+    "answer": [ "この本は", "面白くて", "読みやすい", "です" ],
+    "choices": [ "読みやすい", "この本は", "です", "面白くて" ]
+  },
+  {
+    "id": 70,
+    "level": "N4",
+    "category": "Study",
+    "difficulty": 1,
+    "english": "There are many Kanji, so it's hard to memorize.",
+    "chinese": "漢字很多，很難記住。",
+    "sentence": "漢字が多くて覚えにくいです。",
+    "reading": "かんじがおおくておぼえにくいです。",
+    "answer": [ "漢字が", "多くて", "覚えにくい", "です" ],
+    "choices": [ "覚えにくい", "漢字が", "です", "多くて" ]
+  },
+  {
+    "id": 71,
+    "level": "N4",
+    "category": "Food & Drink",
+    "difficulty": 1,
+    "english": "I drank too much alcohol last night.",
+    "chinese": "我昨晚喝太多酒了。",
+    "sentence": "昨晩はお酒を飲みすぎました。",
+    "reading": "さくばんはおさけをのみすぎました。",
+    "answer": [ "昨晩は", "お酒を", "飲みすぎ", "ました" ],
+    "choices": [ "飲みすぎ", "昨晩は", "ました", "お酒を" ]
+  },
+  {
+    "id": 72,
+    "level": "N4",
+    "category": "Daily Life",
+    "difficulty": 2,
+    "english": "I will lock the door in advance before leaving.",
+    "chinese": "出門前我會先鎖好門。",
+    "sentence": "出かける前に鍵をかけておきます。",
+    "reading": "でかけるまえにかぎをかけておきます。",
+    "answer": [ "出かける前に", "鍵を", "かけて", "おきます" ],
+    "choices": [ "かけて", "出かける前に", "おきます", "鍵を" ]
+  },
+  {
+    "id": 73,
+    "level": "N4",
+    "category": "Work",
+    "difficulty": 2,
+    "english": "I accidentally forgot an important document.",
+    "chinese": "我不小心忘了重要的文件。",
+    "sentence": "大事な書類を忘れてしまいました。",
+    "reading": "だいじなしょるいをわすれてしまいました。",
+    "answer": [ "大事な書類を", "忘れて", "しまい", "ました" ],
+    "choices": [ "しまい", "大事な書類を", "ました", "忘れて" ]
+  },
+  {
+    "id": 74,
+    "level": "N4",
+    "category": "Food & Drink",
+    "difficulty": 1,
+    "english": "I want to try eating Japanese Natto.",
+    "chinese": "我想吃吃看日本的納豆。",
+    "sentence": "日本の納豆を食べてみたいです。",
+    "reading": "にほんのなっとうをたべてみたいです。",
+    "answer": [ "日本の納豆を", "食べて", "みたい", "です" ],
+    "choices": [ "みたい", "日本の納豆を", "です", "食べて" ]
+  },
+  {
+    "id": 75,
+    "level": "N4",
+    "category": "Nature",
+    "difficulty": 2,
+    "english": "A lot of birds are flying away.",
+    "chinese": "許多鳥兒飛走了。",
+    "sentence": "鳥がたくさん飛んでいきます。",
+    "reading": "とりがたくさんとんでいきます。",
+    "answer": [ "鳥が", "たくさん", "飛んで", "いきます" ],
+    "choices": [ "飛んで", "鳥が", "いきます", "たくさん" ]
+  },
+  {
+    "id": 76,
+    "level": "N4",
+    "category": "Social",
+    "difficulty": 1,
+    "english": "My friend came to my house to hang out.",
+    "chinese": "朋友來到我家玩。",
+    "sentence": "友達が家に遊びに来ました。",
+    "reading": "ともだちがいえにあそびにきました。",
+    "answer": [ "友達が", "家に", "遊びに", "来ました" ],
+    "choices": [ "遊びに", "友達が", "来ました", "家に" ]
+  },
+  {
+    "id": 77,
+    "level": "N4",
+    "category": "Grammar",
+    "difficulty": 2,
+    "english": "Tanaka-san said he would come tomorrow.",
+    "chinese": "田中先生說他明天會來。",
+    "sentence": "田中さんは明日来ると言っていました。",
+    "reading": "たなかさんはあしたくるといっていました。",
+    "answer": [ "田中さんは", "明日来ると", "言って", "いました" ],
+    "choices": [ "言って", "田中さんは", "いました", "明日来ると" ]
+  },
+  {
+    "id": 78,
+    "level": "N4",
+    "category": "Weather",
+    "difficulty": 2,
+    "english": "It looks like it will rain because the sky is dark.",
+    "chinese": "天空很暗，看起來快要下雨了。",
+    "sentence": "空が暗いから雨が降りそうです。",
+    "reading": "そらがくらいからあめがふりそうです。",
+    "answer": [ "空が暗いから", "雨が", "降りそう", "です" ],
+    "choices": [ "降りそう", "空が暗いから", "です", "雨が" ]
+  },
+  {
+    "id": 79,
+    "level": "N4",
+    "category": "Food & Drink",
+    "difficulty": 1,
+    "english": "This dish looks very delicious.",
+    "chinese": "這道料理看起來很好吃。",
+    "sentence": "この料理はとても美味しそうです。",
+    "reading": "このりょうりはとてもおいしそうです。",
+    "answer": [ "この料理は", "とても", "美味しそう", "です" ],
+    "choices": [ "美味しそう", "この料理は", "です", "とても" ]
+  },
+  {
+    "id": 80,
+    "level": "N4",
+    "category": "Social",
+    "difficulty": 2,
+    "english": "I lent some money to my friend.",
+    "chinese": "我借了些錢給朋友。",
+    "sentence": "友達にお金を貸してあげました。",
+    "reading": "ともだちにおかねをかしてあげました。",
+    "answer": [ "友達に", "お金を", "貸して", "あげました" ],
+    "choices": [ "貸して", "友達に", "あげました", "お金を" ]
+  },
+  {
+    "id": 81,
+    "level": "N4",
+    "category": "Study",
+    "difficulty": 2,
+    "english": "The teacher kindly taught me.",
+    "chinese": "老師親切地教了我。",
+    "sentence": "先生が親切に教えてくれました。",
+    "reading": "せんせいがしんせつにおしえてくれました。",
+    "answer": [ "先生が", "親切に", "教えて", "くれました" ],
+    "choices": [ "教えて", "先生が", "くれました", "親切に" ]
+  },
+  {
+    "id": 82,
+    "level": "N4",
+    "category": "Study",
+    "difficulty": 2,
+    "english": "I borrowed a book from my senior.",
+    "chinese": "我請學長/姐借了我一本書。",
+    "sentence": "先輩に本を貸してもらいました。",
+    "reading": "せんぱいにほんをかしてもらいました。",
+    "answer": [ "先輩に", "本を", "貸して", "もらいました" ],
+    "choices": [ "貸して", "先輩に", "もらいました", "本を" ]
+  },
+  {
+    "id": 83,
+    "level": "N4",
+    "category": "Daily Life",
+    "difficulty": 3,
+    "english": "My foot was stepped on by a stranger.",
+    "chinese": "我的腳被陌生人踩到了。",
+    "sentence": "見知らぬ人に足を踏まれました。",
+    "reading": "みしらぬひとにあしをふまれました。",
+    "answer": [ "見知らぬ人に", "足を", "踏まれ", "ました" ],
+    "choices": [ "踏まれ", "見知らぬ人に", "ました", "足を" ]
+  },
+  {
+    "id": 84,
+    "level": "N4",
+    "category": "Daily Life",
+    "difficulty": 3,
+    "english": "I was made to clean the room by my mother.",
+    "chinese": "我被媽媽逼著清掃房間。",
+    "sentence": "母に部屋を掃除させられました。",
+    "reading": "ははにへやをそうじさせられました。",
+    "answer": [ "母に", "部屋を", "掃除させ", "られました" ],
+    "choices": [ "掃除させ", "母に", "られました", "部屋を" ]
+  },
+  {
+    "id": 85,
+    "level": "N4",
+    "category": "School",
+    "difficulty": 2,
+    "english": "My name was called by the teacher.",
+    "chinese": "我的名字被老師叫到了。",
+    "sentence": "先生に名前を呼ばれました。",
+    "reading": "せんせいになまえをよばれました。",
+    "answer": [ "先生に", "名前を", "呼ばれ", "ました" ],
+    "choices": [ "呼ばれ", "先生に", "ました", "名前を" ]
+  },
+  {
+    "id": 86,
+    "level": "N4",
+    "category": "Commute",
+    "difficulty": 2,
+    "english": "The train was crowded, so I couldn't stand.",
+    "chinese": "電車很擠，所以站不住。",
+    "sentence": "電車が混んでいて立てませんでした。",
+    "reading": "でんしゃがこんでいてたてませんでした。",
+    "answer": [ "電車が", "混んでいて", "立て", "ませんでした" ],
+    "choices": [ "立て", "電車が", "ませんでした", "混んでいて" ]
+  },
+  {
+    "id": 87,
+    "level": "N4",
+    "category": "Sports",
+    "difficulty": 2,
+    "english": "He became able to swim.",
+    "chinese": "他變得會游泳了。",
+    "sentence": "彼は泳ぐことができるようになりました。",
+    "reading": "かれはおよぐことができるようになりました。",
+    "answer": [ "彼は", "泳ぐことが", "できるように", "なりました" ],
+    "choices": [ "できるように", "彼は", "なりました", "泳ぐことが" ]
+  },
+  {
+    "id": 88,
+    "level": "N4",
+    "category": "News",
+    "difficulty": 2,
+    "english": "According to the news, there was an accident.",
+    "chinese": "據新聞報導，發生了一起事故。",
+    "sentence": "ニュースによると事故があったそうです。",
+    "reading": "にゅーすによるとじこがあったそうです。",
+    "answer": [ "ニュースによると", "事故が", "あったそう", "です" ],
+    "choices": [ "あったそう", "ニュースによると", "です", "事故が" ]
+  },
+  {
+    "id": 89,
+    "level": "N4",
+    "category": "Grammar",
+    "difficulty": 2,
+    "english": "That person might be sick.",
+    "chinese": "那個人可能生病了。",
+    "sentence": "あの人は病気かもしれません。",
+    "reading": "あのひとはびょうきかもしれません。",
+    "answer": [ "あの人は", "病気かも", "しれません" ],
+    "choices": [ "しれません", "あの人は", "病気かも" ]
+  },
+  {
+    "id": 90,
+    "level": "N4",
+    "category": "Daily Life",
+    "difficulty": 2,
+    "english": "I have just cleaned the room.",
+    "chinese": "我剛清理完房間。",
+    "sentence": "部屋を掃除したばかりです。",
+    "reading": "へやをそうじしたばかりです。",
+    "answer": [ "部屋を", "掃除した", "ばかり", "です" ],
+    "choices": [ "ばかり", "部屋を", "です", "掃除した" ]
+  },
+  {
+    "id": 91,
+    "level": "N4",
+    "category": "Study",
+    "difficulty": 2,
+    "english": "He should have finished his homework.",
+    "chinese": "他應該已經做完作業了。",
+    "sentence": "宿題を終わらせたはずです。",
+    "reading": "しゅくだいをおわらせたはずです。",
+    "answer": [ "宿題を", "終わらせた", "はず", "です" ],
+    "choices": [ "はず", "宿題を", "です", "終わらせた" ]
+  },
+  {
+    "id": 92,
+    "level": "N4",
+    "category": "Daily Life",
+    "difficulty": 1,
+    "english": "The door is open.",
+    "chinese": "門開著。",
+    "sentence": "ドアが開いています。",
+    "reading": "どあがあいています。",
+    "answer": [ "ドアが", "開いて", "います" ],
+    "choices": [ "います", "ドアが", "開いて" ]
+  },
+  {
+    "id": 93,
+    "level": "N4",
+    "category": "Daily Life",
+    "difficulty": 2,
+    "english": "A picture is hung on the wall.",
+    "chinese": "牆上掛著一幅畫。",
+    "sentence": "壁に絵がかけてあります。",
+    "reading": "かべにえがかけてあります。",
+    "answer": [ "壁に", "絵が", "かけて", "あります" ],
+    "choices": [ "かけて", "壁に", "あります", "絵が" ]
+  },
+  {
+    "id": 94,
+    "level": "N4",
+    "category": "Study",
+    "difficulty": 1,
+    "english": "Is it okay if I don't study?",
+    "chinese": "我不學習也可以嗎？",
+    "sentence": "勉強しなくてもいいですか。",
+    "reading": "べんきょうしなくてもいいですか。",
+    "answer": [ "勉強しなくても", "いい", "ですか" ],
+    "choices": [ "ですか", "勉強しなくても", "いい" ]
+  },
+  {
+    "id": 95,
+    "level": "N4",
+    "category": "Daily Life",
+    "difficulty": 1,
+    "english": "I must wake up early.",
+    "chinese": "我必須早起。",
+    "sentence": "早く起きなければなりません。",
+    "reading": "はやくおきなければなりません。",
+    "answer": [ "早く", "起きなければ", "なりません" ],
+    "choices": [ "なりません", "早く", "起きなければ" ]
+  },
+  {
+    "id": 96,
+    "level": "N4",
+    "category": "Grammar",
+    "difficulty": 2,
+    "english": "I don't know whether I will go or not.",
+    "chinese": "我不知道去不去。",
+    "sentence": "行くかどうか分かりません。",
+    "reading": "いくかどうかわかりません。",
+    "answer": [ "行くかどうか", "分かり", "ません" ],
+    "choices": [ "ません", "行くかどうか", "分かり" ]
+  },
+  {
+    "id": 97,
+    "level": "N4",
+    "category": "Travel",
+    "difficulty": 2,
+    "english": "Have you decided where to go?",
+    "chinese": "你決定好要去哪裡了嗎？",
+    "sentence": "どこへ行くか決めましたか。",
+    "reading": "どこへいくかきめましたか。",
+    "answer": [ "どこへ", "行くか", "決めましたか" ],
+    "choices": [ "決めましたか", "どこへ", "行くか" ]
+  },
+  {
+    "id": 98,
+    "level": "N4",
+    "category": "Food & Drink",
+    "difficulty": 2,
+    "english": "The price is high, and the taste is not good either.",
+    "chinese": "價格又貴，味道又不好。",
+    "sentence": "値段は高いし味も良くないです。",
+    "reading": "ねだんはたかいのあじもよくないです。",
+    "answer": [ "値段は高いし", "味も", "良くない", "です" ],
+    "choices": [ "良くない", "値段は高いし", "です", "味も" ]
+  },
+  {
+    "id": 99,
+    "level": "N4",
+    "category": "Grammar",
+    "difficulty": 2,
+    "english": "She is just like an angel.",
+    "chinese": "她簡直就像天使一樣。",
+    "sentence": "彼女はまるで天使のようです。",
+    "reading": "かのじょはまるでてんしのようです。",
+    "answer": [ "彼女は", "まるで", "天使の", "ようです" ],
+    "choices": [ "ようです", "彼女は", "天使の", "まるで" ]
+  },
+  {
+    "id": 100,
+    "level": "N4",
+    "category": "Grammar",
+    "difficulty": 2,
+    "english": "Even though I tried my best, I lost.",
+    "chinese": "明明已經拼盡全力，卻還是輸了。",
+    "sentence": "一生懸命頑張ったのに負けました。",
+    "reading": "いっしょうけんめいがんばったのにまけました。",
+    "answer": [ "一生懸命", "頑張ったのに", "負けました" ],
+    "choices": [ "負けました", "一生懸命", "頑張ったのに" ]
+  }
+]

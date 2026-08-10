@@ -43,6 +43,13 @@
                     (click)="filterByLevel('N4')">
               N4 ({{ n4Count }})
             </button>
+
+            <button type="button"
+                    class="btn badge-btn rounded-pill px-4 py-2"
+                    [ngClass]="selectedLevel === 'N5' ? 'badge-btn-active' : 'badge-btn-outline'"
+                    (click)="filterByLevel('N5')">
+              N5 ({{ n5Count }})
+            </button>
           </div>
 
         </div>
@@ -67,14 +74,33 @@
                   <span class="badge rounded-pill level-tag">
                     JLPT {{ item.level || 'N4' }}
                   </span>
+
+                  <!-- 👈 ★ 新增這段：喇叭按鈕 -->
+                  <button type="button"
+                          class="list-speaker-btn"
+                          (click)="playAudio(item.expression)"
+                          title="播放發音">
+                    🔊
+                  </button>
                 </div>
 
-                <!-- ★ 漢字與讀音放在同一列（隔離） -->
-                <h4 class="fw-bold vocab-expression mb-2 d-flex align-items-baseline flex-wrap gap-2">
+
+
+                <!-- 漢字與讀音 + 🔊 喇叭按鈕 -->
+                <h4 class="fw-bold vocab-expression mb-2 d-flex align-items-center flex-wrap gap-2">
                   <!-- 日文漢字 -->
                   <span class="kanji-text">{{ item.expression }}</span>
+
                   <!-- 平假名/片假名（讀音） -->
                   <span class="vocab-reading">（{{ item.reading }}）</span>
+
+                  <!-- 🔊 喇叭按鈕 (緊貼喺讀音隔離) -->
+                  <!--<button type="button"
+                          class="list-speaker-btn"
+                          (click)="playAudio(item.expression)"
+                          title="播放發音">
+                    🔊
+                  </button>-->
                 </h4>
               </div>
 

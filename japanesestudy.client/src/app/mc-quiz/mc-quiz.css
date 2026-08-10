@@ -140,3 +140,42 @@
 .score-label {
   font-size: 1.05rem;
 }
+
+
+/* 1. 基礎樣式（手機 & 電腦通用） */
+.speaker-btn {
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 8px;
+  background: transparent;
+  border: none;
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  color: #6c757d;
+  /* 💡 順便移除手機點擊時預設出現嘅藍色/灰色高亮方框 */
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* 2. 🖱️ 只喺有滑鼠/軌跡板嘅裝置（電腦）先觸發 Hover 效果 */
+@media (hover: hover) {
+  .speaker-btn:hover {
+    background-color: rgba(0, 0, 0, 0.08);
+    transform: translateY(-50%) scale(1.15);
+    color: #111111;
+  }
+}
+
+/* 3. 👆 手機/電腦點擊「按下瞬間」嘅按壓感反饋（按完放手即刻消失） */
+.speaker-btn:active {
+  transform: translateY(-50%) scale(0.95);
+  background-color: rgba(0, 0, 0, 0.1);
+}

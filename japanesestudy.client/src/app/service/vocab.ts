@@ -30,16 +30,18 @@ export class VocabService {
   private loadLocalCsv(): void {
     // 使用 forkJoin 同時發起兩個 HTTP 請求
     forkJoin({
-      n3: this.http.get('/n3_updated.csv', { responseType: 'text' }),
-      n4: this.http.get('/n4_updated.csv', { responseType: 'text' })
+      n3: this.http.get('n3_updated.csv', { responseType: 'text' }),
+      n4: this.http.get('n4_updated.csv', { responseType: 'text' }),
+      n5: this.http.get('n5_updated.csv', { responseType: 'text' })
     }).subscribe({
         next: (csvData) => {
         //this.parseCsv(csvData);
         const n3Data = this.parseCsv(csvData.n3);
         const n4Data = this.parseCsv(csvData.n4);
+        const n5Data = this.parseCsv(csvData.n5);
 
-        // 合併兩個陣列
-        this.allVocabList = [...n3Data, ...n4Data];
+        // 合併三個陣列
+        this.allVocabList = [...n3Data, ...n4Data, ...n5Data];
 
         // 發送通知：資料已完全載入
         this.isLoaded$.next(true);

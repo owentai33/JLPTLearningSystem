@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { Subscription } from 'rxjs';
 import { VocabService, VocabItem } from '../service/vocab'; // 引入 Service
+import { TextToSpeech } from '../service/text-to-speech';
 
 @Component({
   selector: 'app-vocab-list',
@@ -10,12 +11,14 @@ import { VocabService, VocabItem } from '../service/vocab'; // 引入 Service
   templateUrl: './vocab-list.html',
   styleUrl: './vocab-list.css',
 })
+
 export class VocabList implements OnInit, OnDestroy {
   public allVocabList: VocabItem[] = [];
   public filteredVocabList: VocabItem[] = [];
 
   public n3Count: number = 0;
   public n4Count: number = 0;
+  public n5Count: number = 0;
 
   // 當前選擇的 Level 篩選條件：'ALL' | 'N3' | 'N4'
   public selectedLevel: string = 'ALL';
@@ -24,6 +27,7 @@ export class VocabList implements OnInit, OnDestroy {
 
   constructor(
     private vocabService: VocabService,
+    private ttsService: TextToSpeech,
     private cdr: ChangeDetectorRef
   ) { }
 
@@ -35,6 +39,7 @@ export class VocabList implements OnInit, OnDestroy {
 
         this.n3Count = this.allVocabList.filter(item => item.level === 'N3').length;
         this.n4Count = this.allVocabList.filter(item => item.level === 'N4').length;
+        this.n5Count = this.allVocabList.filter(item => item.level === 'N5').length;
 
         // 預設顯示所有單字
         this.filterByLevel(this.selectedLevel);
@@ -55,6 +60,12 @@ export class VocabList implements OnInit, OnDestroy {
     }
 
     this.cdr.detectChanges();
+  }
+
+  playAudio(text: string): void {
+    if (text) {
+      this.ttsService.speak(text);
+    }
   }
 
   ngOnDestroy(): void {

@@ -47,10 +47,25 @@
           JLPT {{ vocabList[currentIndex].level }}
         </div>
 
-        <!-- 漢字 -->
-        <h1>
-          {{ vocabList[currentIndex].expression }}
-        </h1>
+        <!-- 漢字：利用 position-relative 確保生字 100% 絕對置中 -->
+        <div class="text-center my-2">
+          <div class="position-relative d-inline-block">
+
+            <!-- 生字本體 (完全不被任何按鈕推擠) -->
+            <h1 class="m-0 fw-bold">
+              {{ vocabList[currentIndex].expression }}
+            </h1>
+
+            <!-- 🔊 喇叭按鈕 (掛喺文字框外側，有 Hover 效果) -->
+            <button type="button"
+                    class="speaker-btn"
+                    (click)="playAudio(vocabList[currentIndex].expression); $event.stopPropagation()"
+                    title="播放發音">
+              🔊
+            </button>
+
+          </div>
+        </div>
 
         <!-- 平假名讀音 -->
         <h4>
@@ -87,6 +102,8 @@
               style="background-color: #0076a3; transition: all 0.2s;"
               onmouseover="this.style.backgroundColor='#1a8cb9'; this.querySelector('.spin-icon').style.transform='rotate(360deg)'"
               onmouseout="this.style.backgroundColor='#0076a3'; this.querySelector('.spin-icon').style.transform='rotate(0deg)'"
+              ontouchstart="this.style.backgroundColor='#1a8cb9'; this.querySelector('.spin-icon').style.transform='rotate(360deg)'"
+              ontouchend="setTimeout(() => { this.style.backgroundColor='#0076a3'; this.querySelector('.spin-icon').style.transform='rotate(0deg)'; this.blur(); }, 400);"
               (click)="getRandomTen()">
 
         <!-- 🔄 圖示：加上 transition 做出轉一圈動畫 -->
@@ -95,8 +112,6 @@
 
       </button>
     </div>
-
-
 
 
   </div>
@@ -175,7 +190,7 @@
 
       <div class="menu-card">
 
-        <div class="d-flex justify-content-between align-items-center">
+        <div routerLink="/sentence-practice" class="d-flex justify-content-between align-items-center">
 
           <div>
 

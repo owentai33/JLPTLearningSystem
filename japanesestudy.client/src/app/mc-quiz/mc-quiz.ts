@@ -1,5 +1,6 @@
 import { Component, OnInit, OnDestroy, signal, ChangeDetectorRef } from '@angular/core';
 import { VocabService, VocabItem } from '../service/vocab'; // 引入 Service
+import { TextToSpeech } from '../service/text-to-speech'; 
 import { Subscription } from 'rxjs';
 
 // 1. 單一選項的結構
@@ -26,7 +27,9 @@ export interface Question {
 })
 
 export class McQuiz implements OnInit, OnDestroy {
-  constructor(private vocabService: VocabService, private cdr: ChangeDetectorRef) {}
+  constructor(private vocabService: VocabService,
+    private ttsService: TextToSpeech, 
+    private cdr: ChangeDetectorRef) { }
 
 
   public questions: Question[] =[];
@@ -45,7 +48,7 @@ export class McQuiz implements OnInit, OnDestroy {
         this.vocabList = this.vocabService.allVocabList;
 
         // 開始生成 4 選 1 題目...
-        this.generateQuestions(3);
+        this.generateQuestions(10);
 
         // 強制更新畫面 (防止 ChangeDetection 問題)
         this.cdr.detectChanges();
@@ -155,6 +158,12 @@ export class McQuiz implements OnInit, OnDestroy {
     } else {
       // 最後一題按下，切換為完成狀態
       this.isFinished = true;
+    }
+  }
+
+  playAudio(text: string): void {
+    if (text) {
+      this.ttsService.speak(text);
     }
   }
 
