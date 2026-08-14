@@ -121,6 +121,12 @@
     box-shadow: 0 4px 12px rgba(30, 74, 56, 0.25);
   }
 
+  .btn-next:disabled {
+    background-color: var(--btn-next-disabled);
+    box-shadow: none; /* 強制移除陰影 */
+    opacity: 0.7; /* （可選）稍微淡化，停用感更明顯 */
+  }
+
 /* 最底部「返回主頁」橢圓按鈕 */
 .btn-home-bottom {
   background-color: #e8e4da;

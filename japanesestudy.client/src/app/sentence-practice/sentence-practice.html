@@ -64,8 +64,8 @@
 
           <button *ngIf="!isSubmitted"
                   class="btn btn-next"
-                  [class.active]="userAnswer.length > 0"
-                  [disabled]="userAnswer.length === 0"
+                  [class.active]="userAnswerList.length === choicesList.length"
+                  [disabled]="userAnswerList.length !== choicesList.length"
                   (click)="submitAnswer()">
             確認答案
           </button>

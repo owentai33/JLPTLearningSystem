@@ -1,0 +1,197 @@
+<div class="container py-4" style="max-width: 680px;">
+
+  <!-- 頂部標題與進度卡片 -->
+  <div class="card quiz-header-card shadow-sm mb-3 border-0 rounded-4 p-3">
+    <div class="d-flex justify-content-between align-items-center mb-2">
+      <h4 class="fw-bold m-0 quiz-title">日文動詞變化測驗</h4>
+      <span class="badge quiz-badge rounded-pill px-3 py-2">
+        題目 {{ currentIndex + 1 }} / {{ questions.length }}
+      </span>
+    </div>
+    <!-- 進度條 -->
+    <div class="progress" style="height: 6px; background-color: #e9ecef;">
+      <div class="progress-bar custom-progress-bar rounded-pill"
+           role="progressbar"
+           [style.width.%]="((currentIndex + 1) / questions.length) * 100">
+      </div>
+    </div>
+  </div>
+
+  <!-- 主測驗卡片 -->
+  <div *ngIf="!isFinished && currentQuestion" class="card quiz-main-card shadow-sm border-0 rounded-4 p-4 mb-3">
+
+    <!-- 提示標題與層級 Badge -->
+    <div class="d-flex justify-content-between align-items-center mb-3">
+      <div>
+        <span class="text-secondary fs-5">請選出正確的動詞：</span>
+        <span class="fs-4 fw-bold text-dark ms-1">【{{ currentQuestion.targetFormLabel }}】</span>
+      </div>
+      <span class="badge bg-light text-secondary border px-2 py-1 rounded">
+        JLPT {{ currentQuestion.level || 'JLPT N4' }}
+      </span>
+    </div>
+
+    <!-- 題目顯示區塊 -->
+    <div class="quiz-question-box rounded-3 p-4 text-center mb-4 position-relative">
+      <div class="d-inline-flex align-items-center justify-content-center position-relative">
+        <h2 class="display-4 fw-bold mb-0 me-2">{{ currentQuestion.kanji }}</h2>
+        <!-- 🔊 喇叭按鈕 -->
+        <button type="button"
+                class="speaker-btn"
+                (click)="playAudio(currentQuestion.kanji); $event.stopPropagation()"
+                title="播放發音">
+          🔊
+        </button>
+      </div>
+      <div class="text-muted mt-1 fs-5">
+        （ {{ currentQuestion.reading }} ） - {{ currentQuestion.meaning }}
+      </div>
+    </div>
+
+    <!-- 選項列表 (A / B / C / D) -->
+    <div class="d-grid gap-3 mb-4">
+      <button *ngFor="let option of currentQuestion.options; let i = index"
+              type="button"
+              class="btn option-btn text-start p-3 rounded-3 d-flex align-items-center"
+              [ngClass]="getOptionClass(option)"
+              (click)="selectOption(option)">
+        <span class="fw-bold me-3">{{ getOptionLabel(i) }}.</span>
+        <span class="fs-5">{{ option }}</span>
+      </button>
+    </div>
+
+    <!-- 下一題 / 提交 按鈕 -->
+    <div class="d-flex justify-content-end">
+      <button type="button"
+              class="btn btn-primary-custom rounded-pill px-4 py-2 fs-5"
+              [disabled]="!selectedOption"
+              (click)="nextQuestion()">
+        {{ currentIndex === questions.length - 1 ? '完成測驗並查看結果' : '下一題' }}
+      </button>
+    </div>
+
+  </div>
+
+  <!-- 成績結算與上下題回顧區塊 -->
+  <div *ngIf="isFinished">
+
+    <!-- 1. 成績卡片 -->
+    <div class="card result-card shadow-sm border-0 rounded-4 p-4 mb-3 text-center">
+      <div class="result-icon mb-2 display-5">
+        {{ score / questions.length >= 0.8 ? '🎉' : (score / questions.length >= 0.5 ? '👍' : '📖') }}
+      </div>
+      <h4 class="fw-bold quiz-title mb-2">測驗完成！</h4>
+
+      <div class="score-box rounded-3 py-2 px-4 mb-3 bg-light d-inline-block mx-auto">
+        <span class="fs-4 fw-bold text-primary">{{ score }} / {{ questions.length }}</span>
+        <span class="text-muted ms-2">（{{ ((score / questions.length) * 100).toFixed(0) }}%）</span>
+      </div>
+
+      <div class="d-grid gap-2 col-8 mx-auto">
+        <button type="button" class="btn btn-primary-custom rounded-pill py-2 fs-6" (click)="restartGame()">
+          再試一次 🔄
+        </button>
+      </div>
+    </div>
+
+    <!-- 2. 單題回顧卡片（上下題模式） -->
+    <div class="card shadow-sm border-0 rounded-4 p-4 mb-3" *ngIf="questions[reviewIndex] as q">
+
+      <!-- 題號快跳按鈕列 (對錯一目了然) -->
+      <div class="mb-3 text-center">
+        <div class="text-muted small mb-2">點擊題號快速跳轉：</div>
+        <div class="d-flex justify-content-center gap-1 flex-wrap">
+          <button *ngFor="let item of questions; let idx = index"
+                  type="button"
+                  class="btn btn-sm rounded-circle fw-bold position-relative p-0"
+                  style="width: 32px; height: 32px; line-height: 30px;"
+                  [ngClass]="{
+                    'btn-success': item.userAnswer === item.correctAnswer && reviewIndex !== idx,
+                    'btn-danger': item.userAnswer !== item.correctAnswer && reviewIndex !== idx,
+                    'btn-dark border border-2 border-white shadow': reviewIndex === idx
+                  }"
+                  (click)="reviewIndex = idx">
+            {{ idx + 1 }}
+          </button>
+        </div>
+      </div>
+
+      <hr class="my-3 opacity-10">
+
+      <!-- 回顧內容 -->
+      <div class="d-flex justify-content-between align-items-center mb-2">
+        <span class="fw-bold fs-5">
+          第 {{ reviewIndex + 1 }} 題：{{ q.kanji }}
+        </span>
+        <span class="badge rounded-pill px-3 py-2"
+              [ngClass]="q.userAnswer === q.correctAnswer ? 'bg-success' : 'bg-danger'">
+          {{ q.userAnswer === q.correctAnswer ? '✓ 答對' : '✗ 答錯' }}
+        </span>
+      </div>
+
+      <!-- 題目詳情 -->
+      <div class="quiz-question-box rounded-3 p-3 text-center my-3 bg-light">
+        <div class="d-inline-flex align-items-center justify-content-center fs-4 fw-bold text-dark">
+          <span>{{ q.kanji }}</span>
+
+          <!-- 🔊 換成 speaker-btn-inline -->
+          <button type="button"
+                  class="speaker-btn-inline ms-2"
+                  (click)="playAudio(q.kanji); $event.stopPropagation()"
+                  title="播放發音">
+            🔊
+          </button>
+        </div>
+        <div class="text-muted small">（{{ q.reading }}）- {{ q.meaning }}</div>
+        <div class="mt-2 fs-6">
+          目標變化：<span class="fw-bold text-primary">【{{ q.targetFormLabel }}】</span>
+        </div>
+      </div>
+
+      <!-- 你的答案 vs 正確答案 -->
+      <div class="row g-2 p-3 bg-light rounded-3 mb-3 text-center">
+        <div class="col-6 border-end">
+          <div class="text-secondary small">你的答案</div>
+          <div class="fw-bold fs-5 mt-1" [ngClass]="q.userAnswer === q.correctAnswer ? 'text-success' : 'text-danger'">
+            {{ q.userAnswer || '未作答' }}
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="text-secondary small">正確答案</div>
+          <div class="fw-bold fs-5 text-success mt-1">
+            {{ q.correctAnswer }}
+          </div>
+        </div>
+      </div>
+
+      <!-- ❮ 上一題 / 下一題 ❯ 控制鍵 -->
+      <div class="d-flex justify-content-between align-items-center mt-2">
+        <button type="button"
+                class="btn btn-outline-secondary rounded-pill px-3"
+                [disabled]="reviewIndex === 0"
+                (click)="reviewIndex = reviewIndex - 1">
+          ❮ 上一題
+        </button>
+
+        <span class="text-muted small">{{ reviewIndex + 1 }} / {{ questions.length }}</span>
+
+        <button type="button"
+                class="btn btn-outline-secondary rounded-pill px-3"
+                [disabled]="reviewIndex === questions.length - 1"
+                (click)="reviewIndex = reviewIndex + 1">
+          下一題 ❯
+        </button>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- 底部：返回主頁按鈕 -->
+  <div class="text-center">
+    <button routerLink="/home" type="button" class="btn btn-outline-secondary-custom rounded-pill px-4 py-2 w-100">
+      🏠 返回主頁
+    </button>
+  </div>
+
+</div>

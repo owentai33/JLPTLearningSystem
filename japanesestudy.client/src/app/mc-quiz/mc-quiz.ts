@@ -48,7 +48,7 @@ export class McQuiz implements OnInit, OnDestroy {
         this.vocabList = this.vocabService.allVocabList;
 
         // 開始生成 4 選 1 題目...
-        this.generateQuestions(10);
+        this.generateQuestions(5);
 
         // 強制更新畫面 (防止 ChangeDetection 問題)
         this.cdr.detectChanges();

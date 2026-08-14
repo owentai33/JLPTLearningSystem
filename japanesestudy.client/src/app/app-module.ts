@@ -8,9 +8,10 @@ import { McQuiz } from './mc-quiz/mc-quiz';
 import { Home } from './home/home';
 import { VocabList } from './vocab-list/vocab-list';
 import { SentencePractice } from './sentence-practice/sentence-practice';
+import { VerbQuiz } from './verb-quiz/verb-quiz';
 
 @NgModule({
-  declarations: [App, McQuiz, Home, VocabList, SentencePractice],
+  declarations: [App, McQuiz, Home, VocabList, SentencePractice, VerbQuiz],
   imports: [BrowserModule, HttpClientModule, AppRoutingModule],
   providers: [provideBrowserGlobalErrorListeners()],
   bootstrap: [App],
