@@ -1,0 +1,2922 @@
+[
+  {
+    "id": "v_001",
+    "kanji": "踏む",
+    "reading": "ふむ",
+    "meaning": "踩踏，踐踏",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "踏みます",
+      "te": "踏んで",
+      "nai": "踏まない",
+      "ta": "踏んだ",
+      "potential": "踏める",
+      "volitional": "踏もう",
+      "imperative": "踏め",
+      "passive": "踏まれる",
+      "causative": "踏ませる",
+      "causativePassive": "踏まされる"
+    }
+  },
+  {
+    "id": "v_002",
+    "kanji": "盗む",
+    "reading": "ぬすむ",
+    "meaning": "偷竊；搶劫",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "盗みます",
+      "te": "盗んで",
+      "nai": "盗まない",
+      "ta": "盗んだ",
+      "potential": "盗める",
+      "volitional": "盗もう",
+      "imperative": "盗め",
+      "passive": "盗まれる",
+      "causative": "盗ませる",
+      "causativePassive": "盗まされる"
+    }
+  },
+  {
+    "id": "v_003",
+    "kanji": "鳴る",
+    "reading": "なる",
+    "meaning": "發出聲音，響起（不及物動詞）",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "鳴ります",
+      "te": "鳴って",
+      "nai": "鳴らない",
+      "ta": "鳴った",
+      "potential": "鳴れる",
+      "volitional": "鳴ろう",
+      "imperative": "鳴れ",
+      "passive": "鳴られる",
+      "causative": "鳴らせる",
+      "causativePassive": "鳴らされる"
+    }
+  },
+  {
+    "id": "v_004",
+    "kanji": "生きる",
+    "reading": "いきる",
+    "meaning": "生活",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "生きます",
+      "te": "生きて",
+      "nai": "生きない",
+      "ta": "生きた",
+      "potential": "生きられる",
+      "volitional": "生きよう",
+      "imperative": "生きろ",
+      "passive": "生きられる",
+      "causative": "生きさせる",
+      "causativePassive": "生きさせられる"
+    }
+  },
+  {
+    "id": "v_005",
+    "kanji": "沸く",
+    "reading": "わく",
+    "meaning": "沸騰，變熱",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "沸きます",
+      "te": "沸いて",
+      "nai": "沸かない",
+      "ta": "沸いた",
+      "potential": "沸ける",
+      "volitional": "沸こう",
+      "imperative": "沸け",
+      "passive": "沸かれる",
+      "causative": "沸かせる",
+      "causativePassive": "沸かされる"
+    }
+  },
+  {
+    "id": "v_006",
+    "kanji": "折る",
+    "reading": "おる",
+    "meaning": "折斷，折斷；彎曲",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "折ります",
+      "te": "折って",
+      "nai": "折らない",
+      "ta": "折った",
+      "potential": "折れる",
+      "volitional": "折ろう",
+      "imperative": "折れ",
+      "passive": "折られる",
+      "causative": "折らせる",
+      "causativePassive": "折らされる"
+    }
+  },
+  {
+    "id": "v_007",
+    "kanji": "うかがう",
+    "reading": "うかがう",
+    "meaning": "問",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "うかがいます",
+      "te": "うかがって",
+      "nai": "うかがわない",
+      "ta": "うかがった",
+      "potential": "うかがえる",
+      "volitional": "うかがおう",
+      "imperative": "うかがえ",
+      "passive": "うかがわれる",
+      "causative": "うかがわせる",
+      "causativePassive": "うかがわされる"
+    }
+  },
+  {
+    "id": "v_008",
+    "kanji": "聞こえる",
+    "reading": "きこえる",
+    "meaning": "被聽到，可聽見的",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "聞こえます",
+      "te": "聞こえて",
+      "nai": "聞こえない",
+      "ta": "聞こえた",
+      "potential": "聞こえられる",
+      "volitional": "聞こえよう",
+      "imperative": "聞こえろ",
+      "passive": "聞こえられる",
+      "causative": "聞こえさせる",
+      "causativePassive": "聞こえさせられる"
+    }
+  },
+  {
+    "id": "v_009",
+    "kanji": "壊す",
+    "reading": "こわす",
+    "meaning": "打破，崩潰",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "壊します",
+      "te": "壊して",
+      "nai": "壊さない",
+      "ta": "壊した",
+      "potential": "壊せる",
+      "volitional": "壊そう",
+      "imperative": "壊せ",
+      "passive": "壊される",
+      "causative": "壊させる",
+      "causativePassive": "壊さされる"
+    }
+  },
+  {
+    "id": "v_010",
+    "kanji": "怒る",
+    "reading": "おこる",
+    "meaning": "生氣；憤怒地責罵",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "怒ります",
+      "te": "怒って",
+      "nai": "怒らない",
+      "ta": "怒った",
+      "potential": "怒れる",
+      "volitional": "怒ろう",
+      "imperative": "怒れ",
+      "passive": "怒られる",
+      "causative": "怒らせる",
+      "causativePassive": "怒らされる"
+    }
+  },
+  {
+    "id": "v_011",
+    "kanji": "止む",
+    "reading": "やむ",
+    "meaning": "停止，停下",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "止みます",
+      "te": "止んで",
+      "nai": "止まない",
+      "ta": "止んだ",
+      "potential": "止める",
+      "volitional": "止もう",
+      "imperative": "止め",
+      "passive": "止まれる",
+      "causative": "止ませる",
+      "causativePassive": "止まされる"
+    }
+  },
+  {
+    "id": "v_012",
+    "kanji": "拾う",
+    "reading": "ひろう",
+    "meaning": "撿起（某物），找到",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "拾います",
+      "te": "拾って",
+      "nai": "拾わない",
+      "ta": "拾った",
+      "potential": "拾える",
+      "volitional": "拾おう",
+      "imperative": "拾え",
+      "passive": "拾われる",
+      "causative": "拾わせる",
+      "causativePassive": "拾わされる"
+    }
+  },
+  {
+    "id": "v_013",
+    "kanji": "比べる",
+    "reading": "くらべる",
+    "meaning": "進行比較",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "比べます",
+      "te": "比べて",
+      "nai": "比べない",
+      "ta": "比べた",
+      "potential": "比べられる",
+      "volitional": "比べよう",
+      "imperative": "比べろ",
+      "passive": "比べられる",
+      "causative": "比べさせる",
+      "causativePassive": "比べさせられる"
+    }
+  },
+  {
+    "id": "v_014",
+    "kanji": "焼く",
+    "reading": "やく",
+    "meaning": "烘烤，燒烤",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "焼きます",
+      "te": "焼いて",
+      "nai": "焼かない",
+      "ta": "焼いた",
+      "potential": "焼ける",
+      "volitional": "焼こう",
+      "imperative": "焼け",
+      "passive": "焼かれる",
+      "causative": "焼かせる",
+      "causativePassive": "焼かされる"
+    }
+  },
+  {
+    "id": "v_015",
+    "kanji": "建てる",
+    "reading": "たてる",
+    "meaning": "建造",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "建てます",
+      "te": "建てて",
+      "nai": "建てない",
+      "ta": "建てた",
+      "potential": "建てられる",
+      "volitional": "建てよう",
+      "imperative": "建てろ",
+      "passive": "建てられる",
+      "causative": "建てさせる",
+      "causativePassive": "建てさせられる"
+    }
+  },
+  {
+    "id": "v_016",
+    "kanji": "通る",
+    "reading": "とおる",
+    "meaning": "經過，穿過",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "通ります",
+      "te": "通って",
+      "nai": "通らない",
+      "ta": "通った",
+      "potential": "通れる",
+      "volitional": "通ろう",
+      "imperative": "通れ",
+      "passive": "通られる",
+      "causative": "通らせる",
+      "causativePassive": "通らされる"
+    }
+  },
+  {
+    "id": "v_017",
+    "kanji": "過ぎる",
+    "reading": "すぎる",
+    "meaning": "超越，超越",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "過きます",
+      "te": "過きて",
+      "nai": "過きない",
+      "ta": "過きた",
+      "potential": "過きられる",
+      "volitional": "過きよう",
+      "imperative": "過きろ",
+      "passive": "過きられる",
+      "causative": "過きさせる",
+      "causativePassive": "過きさせられる"
+    }
+  },
+  {
+    "id": "v_018",
+    "kanji": "止める",
+    "reading": "やめる",
+    "meaning": "結束，停止",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "止めます",
+      "te": "止めて",
+      "nai": "止めない",
+      "ta": "止めた",
+      "potential": "止められる",
+      "volitional": "止めよう",
+      "imperative": "止めろ",
+      "passive": "止められる",
+      "causative": "止めさせる",
+      "causativePassive": "止めさせられる"
+    }
+  },
+  {
+    "id": "v_019",
+    "kanji": "壊れる",
+    "reading": "こわれる",
+    "meaning": "被打破，打破",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "壊れます",
+      "te": "壊れて",
+      "nai": "壊れない",
+      "ta": "壊れた",
+      "potential": "壊れられる",
+      "volitional": "壊れよう",
+      "imperative": "壊れろ",
+      "passive": "壊れられる",
+      "causative": "壊れさせる",
+      "causativePassive": "壊れさせられる"
+    }
+  },
+  {
+    "id": "v_020",
+    "kanji": "選ぶ",
+    "reading": "えらぶ",
+    "meaning": "選擇",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "選びます",
+      "te": "選んで",
+      "nai": "選ばない",
+      "ta": "選んだ",
+      "potential": "選べる",
+      "volitional": "選ぼう",
+      "imperative": "選べ",
+      "passive": "選ばれる",
+      "causative": "選ばせる",
+      "causativePassive": "選ばされる"
+    }
+  },
+  {
+    "id": "v_021",
+    "kanji": "手伝う",
+    "reading": "てつだう",
+    "meaning": "協助，幫忙",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "手伝います",
+      "te": "手伝って",
+      "nai": "手伝わない",
+      "ta": "手伝った",
+      "potential": "手伝える",
+      "volitional": "手伝おう",
+      "imperative": "手伝え",
+      "passive": "手伝われる",
+      "causative": "手伝わせる",
+      "causativePassive": "手伝わされる"
+    }
+  },
+  {
+    "id": "v_022",
+    "kanji": "受ける",
+    "reading": "うける",
+    "meaning": "接受，取得",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "受けます",
+      "te": "受けて",
+      "nai": "受けない",
+      "ta": "受けた",
+      "potential": "受けられる",
+      "volitional": "受けよう",
+      "imperative": "受けろ",
+      "passive": "受けられる",
+      "causative": "受けさせる",
+      "causativePassive": "受けさせられる"
+    }
+  },
+  {
+    "id": "v_023",
+    "kanji": "伝える",
+    "reading": "つたえる",
+    "meaning": "報告，溝通",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "伝えます",
+      "te": "伝えて",
+      "nai": "伝えない",
+      "ta": "伝えた",
+      "potential": "伝えられる",
+      "volitional": "伝えよう",
+      "imperative": "伝えろ",
+      "passive": "伝えられる",
+      "causative": "伝えさせる",
+      "causativePassive": "伝えさせられる"
+    }
+  },
+  {
+    "id": "v_024",
+    "kanji": "下さる",
+    "reading": "くださる",
+    "meaning": "給予，授予",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "下さります",
+      "te": "下さって",
+      "nai": "下さらない",
+      "ta": "下さった",
+      "potential": "下される",
+      "volitional": "下さろう",
+      "imperative": "下され",
+      "passive": "下さらされる",
+      "causative": "下さらせる",
+      "causativePassive": "下さらされる"
+    }
+  },
+  {
+    "id": "v_025",
+    "kanji": "眠る",
+    "reading": "ねむる",
+    "meaning": "睡覺，入睡",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "眠ります",
+      "te": "眠って",
+      "nai": "眠らない",
+      "ta": "眠った",
+      "potential": "眠れる",
+      "volitional": "眠ろう",
+      "imperative": "眠れ",
+      "passive": "眠られる",
+      "causative": "眠らせる",
+      "causativePassive": "眠らされる"
+    }
+  },
+  {
+    "id": "v_026",
+    "kanji": "亡くなる",
+    "reading": "なくなる",
+    "meaning": "死亡",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "亡くなります",
+      "te": "亡くなって",
+      "nai": "亡くならない",
+      "ta": "亡くなった",
+      "potential": "亡くなれる",
+      "volitional": "亡くなろう",
+      "imperative": "亡くなれ",
+      "passive": "亡くなられる",
+      "causative": "亡くならせる",
+      "causativePassive": "亡くならされる"
+    }
+  },
+  {
+    "id": "v_027",
+    "kanji": "急ぐ",
+    "reading": "いそぐ",
+    "meaning": "趕快，著急",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "急ぎます",
+      "te": "急いで",
+      "nai": "急がない",
+      "ta": "急いだ",
+      "potential": "急げる",
+      "volitional": "急ごう",
+      "imperative": "急げ",
+      "passive": "急がれる",
+      "causative": "急がせる",
+      "causativePassive": "急がされる"
+    }
+  },
+  {
+    "id": "v_028",
+    "kanji": "なさる",
+    "reading": "なさる",
+    "meaning": "做（尊敬語）",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "なさります",
+      "te": "なさって",
+      "nai": "なさらない",
+      "ta": "なさった",
+      "potential": "なされる",
+      "volitional": "なさろう",
+      "imperative": "なされ",
+      "passive": "なさられる",
+      "causative": "なさらせる",
+      "causativePassive": "なさらされる"
+    }
+  },
+  {
+    "id": "v_029",
+    "kanji": "喜ぶ",
+    "reading": "よろこぶ",
+    "meaning": "感到高興，感到喜悅",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "喜びにます",
+      "te": "喜んで",
+      "nai": "喜ばない",
+      "ta": "喜んだ",
+      "potential": "喜べる",
+      "volitional": "喜ぼう",
+      "imperative": "喜べ",
+      "passive": "喜ばれる",
+      "causative": "喜ばせる",
+      "causativePassive": "喜ばされる"
+    }
+  },
+  {
+    "id": "v_030",
+    "kanji": "打つ",
+    "reading": "うつ",
+    "meaning": "擊打，敲擊",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "打ちます",
+      "te": "打って",
+      "nai": "打たない",
+      "ta": "打った",
+      "potential": "打てる",
+      "volitional": "打とう",
+      "imperative": "打て",
+      "passive": "打たれる",
+      "causative": "打たせる",
+      "causativePassive": "打たされる"
+    }
+  },
+  {
+    "id": "v_031",
+    "kanji": "置く",
+    "reading": "おく",
+    "meaning": "放置，留下",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "置きます",
+      "te": "置いて",
+      "nai": "置かない",
+      "ta": "置いた",
+      "potential": "置ける",
+      "volitional": "置こう",
+      "imperative": "置け",
+      "passive": "置かれる",
+      "causative": "置かせる",
+      "causativePassive": "置かされる"
+    }
+  },
+  {
+    "id": "v_032",
+    "kanji": "慣れる",
+    "reading": "なれる",
+    "meaning": "習慣於，適應",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "慣れます",
+      "te": "慣れて",
+      "nai": "慣れない",
+      "ta": "慣れた",
+      "potential": "慣れられる",
+      "volitional": "慣れよう",
+      "imperative": "慣れろ",
+      "passive": "慣れられる",
+      "causative": "慣れさせる",
+      "causativePassive": "慣れさせられる"
+    }
+  },
+  {
+    "id": "v_033",
+    "kanji": "迎える",
+    "reading": "むかえる",
+    "meaning": "出去迎接，迎接",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "迎えます",
+      "te": "迎えて",
+      "nai": "迎えない",
+      "ta": "迎えた",
+      "potential": "迎えられる",
+      "volitional": "迎えよう",
+      "imperative": "迎えろ",
+      "passive": "迎えられる",
+      "causative": "迎えさせる",
+      "causativePassive": "迎えさせられる"
+    }
+  },
+  {
+    "id": "v_034",
+    "kanji": "向かう",
+    "reading": "むかう",
+    "meaning": "朝向，面對",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "向かいます",
+      "te": "向かって",
+      "nai": "向かわない",
+      "ta": "向かった",
+      "potential": "向かえる",
+      "volitional": "向かおう",
+      "imperative": "向かえ",
+      "passive": "向かわれる",
+      "causative": "向かわせる",
+      "causativePassive": "向かわされる"
+    }
+  },
+  {
+    "id": "v_035",
+    "kanji": "滑る",
+    "reading": "すべる",
+    "meaning": "滑行，滑動",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "滑ります",
+      "te": "滑って",
+      "nai": "滑らない",
+      "ta": "滑った",
+      "potential": "滑れる",
+      "volitional": "滑ろう",
+      "imperative": "滑れ",
+      "passive": "滑られる",
+      "causative": "滑らせる",
+      "causativePassive": "滑らされる"
+    }
+  },
+  {
+    "id": "v_036",
+    "kanji": "笑う",
+    "reading": "わらう",
+    "meaning": "微笑，發笑",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "笑います",
+      "te": "笑って",
+      "nai": "笑わない",
+      "ta": "笑った",
+      "potential": "笑える",
+      "volitional": "笑おう",
+      "imperative": "笑え",
+      "passive": "笑われる",
+      "causative": "笑わせる",
+      "causativePassive": "笑わされる"
+    }
+  },
+  {
+    "id": "v_037",
+    "kanji": "見つかる",
+    "reading": "みつかる",
+    "meaning": "被發現，被找到",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "見つかります",
+      "te": "見つかって",
+      "nai": "見つからない",
+      "ta": "見つかった",
+      "potential": "見つかれる",
+      "volitional": "見つかろう",
+      "imperative": "見つかれ",
+      "passive": "見つかられる",
+      "causative": "見つからせる",
+      "causativePassive": "見つからされる"
+    }
+  },
+  {
+    "id": "v_038",
+    "kanji": "下がる",
+    "reading": "さがる",
+    "meaning": "下降，垂下",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "下がります",
+      "te": "下がって",
+      "nai": "下がらない",
+      "ta": "下った",
+      "potential": "下がれる",
+      "volitional": "下がろう",
+      "imperative": "下がれ",
+      "passive": "下がらされる",
+      "causative": "下がらせる",
+      "causativePassive": "下がらされる"
+    }
+  },
+  {
+    "id": "v_039",
+    "kanji": "捕まえる",
+    "reading": "つかまえる",
+    "meaning": "抓住，逮捕",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "捕まえます",
+      "te": "捕まえて",
+      "nai": "捕まえない",
+      "ta": "捕まえた",
+      "potential": "捕まえられる",
+      "volitional": "捕まえよう",
+      "imperative": "捕まえろ",
+      "passive": "捕まえられる",
+      "causative": "捕まえさせる",
+      "causativePassive": "捕まえさせられる"
+    }
+  },
+  {
+    "id": "v_040",
+    "kanji": "決まる",
+    "reading": "きまる",
+    "meaning": "被決定，定下來",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "決まります",
+      "te": "決まって",
+      "nai": "決まらない",
+      "ta": "決まった",
+      "potential": "決まれる",
+      "volitional": "決まろう",
+      "imperative": "決まれ",
+      "passive": "決まられる",
+      "causative": "決まらせる",
+      "causativePassive": "決まらされる"
+    }
+  },
+  {
+    "id": "v_041",
+    "kanji": "祝う",
+    "reading": "いわう",
+    "meaning": "祝賀，慶祝",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "祝います",
+      "te": "祝って",
+      "nai": "祝いわない",
+      "ta": "祝った",
+      "potential": "祝える",
+      "volitional": "祝おう",
+      "imperative": "祝え",
+      "passive": "祝われる",
+      "causative": "祝わせる",
+      "causativePassive": "祝わされる"
+    }
+  },
+  {
+    "id": "v_042",
+    "kanji": "調べる",
+    "reading": "しらべる",
+    "meaning": "調查，查閱",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "調べます",
+      "te": "調べて",
+      "nai": "調べない",
+      "ta": "調べた",
+      "potential": "調べられる",
+      "volitional": "調べよう",
+      "imperative": "調べろ",
+      "passive": "調べられる",
+      "causative": "調べさせる",
+      "causativePassive": "調べさせられる"
+    }
+  },
+  {
+    "id": "v_043",
+    "kanji": "投げる",
+    "reading": "なげる",
+    "meaning": "投擲，拋擲",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "投げます",
+      "te": "投げて",
+      "nai": "投げない",
+      "ta": "投げた",
+      "potential": "投げられる",
+      "volitional": "投げよう",
+      "imperative": "投げろ",
+      "passive": "投げられる",
+      "causative": "投げさせる",
+      "causativePassive": "投げさせられる"
+    }
+  },
+  {
+    "id": "v_044",
+    "kanji": "折れる",
+    "reading": "おれる",
+    "meaning": "折斷，彎曲",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "折れます",
+      "te": "折れて",
+      "nai": "折れない",
+      "ta": "折れた",
+      "potential": "折れられる",
+      "volitional": "折れよう",
+      "imperative": "折れろ",
+      "passive": "折れられる",
+      "causative": "折れさせる",
+      "causativePassive": "折れさせられる"
+    }
+  },
+  {
+    "id": "v_045",
+    "kanji": "進む",
+    "reading": "すすむ",
+    "meaning": "前進，推進",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "進みます",
+      "te": "進んで",
+      "nai": "進まない",
+      "ta": "進んだ",
+      "potential": "進める",
+      "volitional": "進もう",
+      "imperative": "進め",
+      "passive": "進まれる",
+      "causative": "進ませる",
+      "causativePassive": "進まされる"
+    }
+  },
+  {
+    "id": "v_046",
+    "kanji": "申す",
+    "reading": "もうす",
+    "meaning": "說，講（謙讓語）",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "申します",
+      "te": "申して",
+      "nai": "申さない",
+      "ta": "申した",
+      "potential": "申せる",
+      "volitional": "申そう",
+      "imperative": "申せ",
+      "passive": "申される",
+      "causative": "申させる",
+      "causativePassive": "申さされる"
+    }
+  },
+  {
+    "id": "v_047",
+    "kanji": "致す",
+    "reading": "いたす",
+    "meaning": "做（謙讓語）",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "致します",
+      "te": "致して",
+      "nai": "致さない",
+      "ta": "致した",
+      "potential": "致せる",
+      "volitional": "致そう",
+      "imperative": "致せ",
+      "passive": "致される",
+      "causative": "致させる",
+      "causativePassive": "致さされる"
+    }
+  },
+  {
+    "id": "v_048",
+    "kanji": "怒る",
+    "reading": "いかる",
+    "meaning": "生氣，怒吼",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "怒ります",
+      "te": "怒って",
+      "nai": "怒らない",
+      "ta": "怒った",
+      "potential": "怒れる",
+      "volitional": "怒ろう",
+      "imperative": "怒れ",
+      "passive": "怒られる",
+      "causative": "怒らせる",
+      "causativePassive": "怒らされる"
+    }
+  },
+  {
+    "id": "v_049",
+    "kanji": "受ける",
+    "reading": "うける",
+    "meaning": "參加（考試等）",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "受けます",
+      "te": "受けて",
+      "nai": "受けない",
+      "ta": "受けた",
+      "potential": "受けられる",
+      "volitional": "受けよう",
+      "imperative": "受けろ",
+      "passive": "受けられる",
+      "causative": "受けさせる",
+      "causativePassive": "受けさせられる"
+    }
+  },
+  {
+    "id": "v_050",
+    "kanji": "落とす",
+    "reading": "おとす",
+    "meaning": "弄丟，弄落",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "落とします",
+      "te": "落として",
+      "nai": "落とさない",
+      "ta": "落とした",
+      "potential": "落とせる",
+      "volitional": "落とそう",
+      "imperative": "落とせ",
+      "passive": "落とされる",
+      "causative": "落とさせる",
+      "causativePassive": "落とさされる"
+    }
+  },
+	{
+    "id": "v_051",
+    "kanji": "治る",
+    "reading": "なおる",
+    "meaning": "好轉；從疾病中康復（不及物動詞）",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "治ります",
+      "te": "治って",
+      "nai": "治らない",
+      "ta": "治った",
+      "potential": "治れる",
+      "volitional": "治ろう",
+      "imperative": "治れ",
+      "passive": "治られる",
+      "causative": "治らせる",
+      "causativePassive": "治らされる"
+    }
+  },
+  {
+    "id": "v_052",
+    "kanji": "残る",
+    "reading": "のこる",
+    "meaning": "留下（不及物動詞），被留下",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "残ります",
+      "te": "残って",
+      "nai": "残らない",
+      "ta": "残った",
+      "potential": "残れる",
+      "volitional": "残ろう",
+      "imperative": "残れ",
+      "passive": "残られる",
+      "causative": "残らせる",
+      "causativePassive": "残らされる"
+    }
+  },
+  {
+    "id": "v_053",
+    "kanji": "立てる",
+    "reading": "たてる",
+    "meaning": "豎立，豎起",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "立てます",
+      "te": "立てて",
+      "nai": "立てない",
+      "ta": "立てた",
+      "potential": "立てられる",
+      "volitional": "立てよう",
+      "imperative": "立てろ",
+      "passive": "立てられる",
+      "causative": "立てさせる",
+      "causativePassive": "立てさせられる"
+    }
+  },
+  {
+    "id": "v_054",
+    "kanji": "くれる",
+    "reading": "くれる",
+    "meaning": "給予（給自己或自己人）",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "くれます",
+      "te": "くれて",
+      "nai": "くれない",
+      "ta": "くれた",
+      "potential": "品(無)",
+      "volitional": "くれよう",
+      "imperative": "くれ",
+      "passive": "品(無)",
+      "causative": "品(無)",
+      "causativePassive": "品(無)"
+    }
+  },
+  {
+    "id": "v_055",
+    "kanji": "驚く",
+    "reading": "おどろく",
+    "meaning": "感到驚訝，震驚",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "驚きます",
+      "te": "驚いて",
+      "nai": "驚かない",
+      "ta": "驚いた",
+      "potential": "驚ける",
+      "volitional": "驚こう",
+      "imperative": "驚け",
+      "passive": "驚かれる",
+      "causative": "驚かせる",
+      "causativePassive": "驚かされる"
+    }
+  },
+  {
+    "id": "v_056",
+    "kanji": "通う",
+    "reading": "かよう",
+    "meaning": "往返，通路線",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "通います",
+      "te": "通って",
+      "nai": "通わない",
+      "ta": "通った",
+      "potential": "通える",
+      "volitional": "通おう",
+      "imperative": "通え",
+      "passive": "通われる",
+      "causative": "通わせる",
+      "causativePassive": "通わされる"
+    }
+  },
+  {
+    "id": "v_057",
+    "kanji": "冷える",
+    "reading": "ひえる",
+    "meaning": "變冷，感到寒冷",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "冷えます",
+      "te": "冷えて",
+      "nai": "冷えない",
+      "ta": "冷えた",
+      "potential": "冷えられる",
+      "volitional": "冷えよう",
+      "imperative": "冷えろ",
+      "passive": "冷えられる",
+      "causative": "冷えさせる",
+      "causativePassive": "冷えさせられる"
+    }
+  },
+  {
+    "id": "v_058",
+    "kanji": "引く",
+    "reading": "ひく",
+    "meaning": "拉，感冒",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "引きます",
+      "te": "引いて",
+      "nai": "引かない",
+      "ta": "引いた",
+      "potential": "引ける",
+      "volitional": "引こう",
+      "imperative": "引け",
+      "passive": "引かれる",
+      "causative": "引かせる",
+      "causativePassive": "引かされる"
+    }
+  },
+  {
+    "id": "v_059",
+    "kanji": "笑う",
+    "reading": "わらう",
+    "meaning": "笑，微笑",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "笑います",
+      "te": "笑って",
+      "nai": "笑わない",
+      "ta": "笑った",
+      "potential": "笑える",
+      "volitional": "笑おう",
+      "imperative": "笑え",
+      "passive": "笑われる",
+      "causative": "笑わせる",
+      "causativePassive": "笑わされる"
+    }
+  },
+  {
+    "id": "v_060",
+    "kanji": "進む",
+    "reading": "すすむ",
+    "meaning": "前進，推進",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "進みます",
+      "te": "進んで",
+      "nai": "進まない",
+      "ta": "進んだ",
+      "potential": "進める",
+      "volitional": "進もう",
+      "imperative": "進め",
+      "passive": "進まれる",
+      "causative": "進ませる",
+      "causativePassive": "進まされる"
+    }
+  },
+  {
+    "id": "v_061",
+    "kanji": "集める",
+    "reading": "あつめる",
+    "meaning": "收集，聚集",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "集めます",
+      "te": "集めて",
+      "nai": "集めない",
+      "ta": "集めた",
+      "potential": "集められる",
+      "volitional": "集めよう",
+      "imperative": "集めろ",
+      "passive": "集められる",
+      "causative": "集めさせる",
+      "causativePassive": "集めさせられる"
+    }
+  },
+  {
+    "id": "v_062",
+    "kanji": "向かう",
+    "reading": "むかう",
+    "meaning": "朝向，前往",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "向かいます",
+      "te": "向かって",
+      "nai": "向かわない",
+      "ta": "向かった",
+      "potential": "向かえる",
+      "volitional": "向かおう",
+      "imperative": "向かい",
+      "passive": "向かわれる",
+      "causative": "向かわせる",
+      "causativePassive": "向かわされる"
+    }
+  },
+  {
+    "id": "v_063",
+    "kanji": "捕まえる",
+    "reading": "つかまえる",
+    "meaning": "抓住，逮捕",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "捕まえます",
+      "te": "捕まえて",
+      "nai": "捕まえない",
+      "ta": "捕まえた",
+      "potential": "捕まえられる",
+      "volitional": "捕まえよう",
+      "imperative": "捕まえろ",
+      "passive": "捕まえられる",
+      "causative": "捕まえさせる",
+      "causativePassive": "捕まえさせられる"
+    }
+  },
+  {
+    "id": "v_064",
+    "kanji": "怒る",
+    "reading": "おこる",
+    "meaning": "發怒，生氣",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "怒ります",
+      "te": "怒って",
+      "nai": "怒らない",
+      "ta": "怒った",
+      "potential": "怒れる",
+      "volitional": "怒ろう",
+      "imperative": "怒れ",
+      "passive": "怒られる",
+      "causative": "怒らせる",
+      "causativePassive": "怒らされる"
+    }
+  },
+  {
+    "id": "v_065",
+    "kanji": "下げる",
+    "reading": "さげる",
+    "meaning": "降低，放下",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "下げます",
+      "te": "下げて",
+      "nai": "下げない",
+      "ta": "下げた",
+      "potential": "下げられる",
+      "volitional": "下げよう",
+      "imperative": "下げろ",
+      "passive": "下げられる",
+      "causative": "下げさせる",
+      "causativePassive": "下げさせられる"
+    }
+  },
+  {
+    "id": "v_066",
+    "kanji": "迎える",
+    "reading": "むかえる",
+    "meaning": "迎接",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "迎えます",
+      "te": "迎えて",
+      "nai": "迎えない",
+      "ta": "迎えた",
+      "potential": "迎えられる",
+      "volitional": "迎えよう",
+      "imperative": "迎えろ",
+      "passive": "迎えられる",
+      "causative": "迎えさせる",
+      "causativePassive": "迎えさせられる"
+    }
+  },
+  {
+    "id": "v_067",
+    "kanji": "倒れる",
+    "reading": "たおれる",
+    "meaning": "倒下，累倒",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "倒れます",
+      "te": "倒れて",
+      "nai": "倒れない",
+      "ta": "倒れた",
+      "potential": "倒れられる",
+      "volitional": "倒れよう",
+      "imperative": "倒れろ",
+      "passive": "倒れられる",
+      "causative": "倒れさせる",
+      "causativePassive": "倒れさせられる"
+    }
+  },
+  {
+    "id": "v_068",
+    "kanji": "流れる",
+    "reading": "ながれる",
+    "meaning": "流動，播放",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "流れます",
+      "te": "流れて",
+      "nai": "流れない",
+      "ta": "流れた",
+      "potential": "流れられる",
+      "volitional": "流れよう",
+      "imperative": "流れろ",
+      "passive": "流れられる",
+      "causative": "流れさせる",
+      "causativePassive": "流れさせられる"
+    }
+  },
+  {
+    "id": "v_069",
+    "kanji": "祝う",
+    "reading": "いわう",
+    "meaning": "慶祝，祝賀",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "祝います",
+      "te": "祝って",
+      "nai": "祝わない",
+      "ta": "祝った",
+      "potential": "祝える",
+      "volitional": "祝おう",
+      "imperative": "祝え",
+      "passive": "祝われる",
+      "causative": "祝わせる",
+      "causativePassive": "祝わされる"
+    }
+  },
+  {
+    "id": "v_070",
+    "kanji": "変える",
+    "reading": "かえる",
+    "meaning": "改變，更換",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "変えます",
+      "te": "変えて",
+      "nai": "変えない",
+      "ta": "変えた",
+      "potential": "変えられる",
+      "volitional": "変えよう",
+      "imperative": "変えろ",
+      "passive": "変えられる",
+      "causative": "変えさせる",
+      "causativePassive": "変えさせられる"
+    }
+  },
+  {
+    "id": "v_071",
+    "kanji": "尋ねる",
+    "reading": "たずねる",
+    "meaning": "詢問，打聽",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "尋ねます",
+      "te": "尋ねて",
+      "nai": "尋ねない",
+      "ta": "尋ねた",
+      "potential": "尋ねられる",
+      "volitional": "尋ねよう",
+      "imperative": "尋ねろ",
+      "passive": "尋ねられる",
+      "causative": "尋ねさせる",
+      "causativePassive": "尋ねさせられる"
+    }
+  },
+  {
+    "id": "v_072",
+    "kanji": "送る",
+    "reading": "おくる",
+    "meaning": "寄送，送行",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "送ります",
+      "te": "送って",
+      "nai": "送らない",
+      "ta": "送った",
+      "potential": "送れる",
+      "volitional": "送ろう",
+      "imperative": "送れ",
+      "passive": "送られる",
+      "causative": "送らせる",
+      "causativePassive": "送らされる"
+    }
+  },
+  {
+    "id": "v_073",
+    "kanji": "割る",
+    "reading": "わる",
+    "meaning": "打破，分割",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "割ります",
+      "te": "割って",
+      "nai": "割らない",
+      "ta": "割った",
+      "potential": "割れる",
+      "volitional": "割ろう",
+      "imperative": "割れ",
+      "passive": "割られる",
+      "causative": "割らせる",
+      "causativePassive": "割らされる"
+    }
+  },
+  {
+    "id": "v_074",
+    "kanji": "掛ける",
+    "reading": "かける",
+    "meaning": "懸掛，花費，打電話",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "掛けます",
+      "te": "掛けて",
+      "nai": "掛けない",
+      "ta": "掛けた",
+      "potential": "掛けられる",
+      "volitional": "掛けよう",
+      "imperative": "掛けろ",
+      "passive": "掛けられる",
+      "causative": "掛けさせる",
+      "causativePassive": "掛けさせられる"
+    }
+  },
+  {
+    "id": "v_075",
+    "kanji": "届く",
+    "reading": "とどく",
+    "meaning": "送達，到達",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "届きます",
+      "te": "届いて",
+      "nai": "届かない",
+      "ta": "届いた",
+      "potential": "届ける",
+      "volitional": "届こう",
+      "imperative": "届け",
+      "passive": "届かれる",
+      "causative": "届かせる",
+      "causativePassive": "届かされる"
+    }
+  },
+  {
+    "id": "v_076",
+    "kanji": "調べる",
+    "reading": "しらべる",
+    "meaning": "調查，查閱",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "調べます",
+      "te": "調べて",
+      "nai": "調べない",
+      "ta": "調べた",
+      "potential": "調べられる",
+      "volitional": "調べよう",
+      "imperative": "調べろ",
+      "passive": "調べられる",
+      "causative": "調べさせる",
+      "causativePassive": "調べさせられる"
+    }
+  },
+  {
+    "id": "v_077",
+    "kanji": "折る",
+    "reading": "おる",
+    "meaning": "折斷，折疊",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "折ります",
+      "te": "折って",
+      "nai": "折らない",
+      "ta": "折った",
+      "potential": "折れる",
+      "volitional": "折ろう",
+      "imperative": "折れ",
+      "passive": "折られる",
+      "causative": "折らせる",
+      "causativePassive": "折らされる"
+    }
+  },
+  {
+    "id": "v_078",
+    "kanji": "取り替える",
+    "reading": "とりかえる",
+    "meaning": "更換，對換",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "取り替えます",
+      "te": "取り替えて",
+      "nai": "取り替えない",
+      "ta": "取り替えた",
+      "potential": "取り替えられる",
+      "volitional": "取り替えよう",
+      "imperative": "取り替えろ",
+      "passive": "取り替えられる",
+      "causative": "取り替えさせる",
+      "causativePassive": "取り替えさせられる"
+    }
+  },
+  {
+    "id": "v_079",
+    "kanji": "急ぐ",
+    "reading": "いそぐ",
+    "meaning": "趕快，著急",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "急ぎます",
+      "te": "急いで",
+      "nai": "急がない",
+      "ta": "急いだ",
+      "potential": "急げる",
+      "volitional": "急ごう",
+      "imperative": "急げ",
+      "passive": "急がれる",
+      "causative": "急がせる",
+      "causativePassive": "急がされる"
+    }
+  },
+  {
+    "id": "v_080",
+    "kanji": "建てる",
+    "reading": "たてる",
+    "meaning": "建造，興建",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "建てます",
+      "te": "建てて",
+      "nai": "建てない",
+      "ta": "建てた",
+      "potential": "建てられる",
+      "volitional": "建てよう",
+      "imperative": "建てろ",
+      "passive": "建てられる",
+      "causative": "建てさせる",
+      "causativePassive": "建てさせられる"
+    }
+  },
+  {
+    "id": "v_081",
+    "kanji": "止める",
+    "reading": "とめる",
+    "meaning": "停住，止住",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "止めます",
+      "te": "止めて",
+      "nai": "止めない",
+      "ta": "止めた",
+      "potential": "止められる",
+      "volitional": "止めよう",
+      "imperative": "止めろ",
+      "passive": "止められる",
+      "causative": "止めさせる",
+      "causativePassive": "止めさせられる"
+    }
+  },
+  {
+    "id": "v_082",
+    "kanji": "受ける",
+    "reading": "うける",
+    "meaning": "接受，參加（考試）",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "受けます",
+      "te": "受けて",
+      "nai": "受けない",
+      "ta": "受けた",
+      "potential": "受けられる",
+      "volitional": "受けよう",
+      "imperative": "受けろ",
+      "passive": "受けられる",
+      "causative": "受けさせる",
+      "causativePassive": "受けさせられる"
+    }
+  },
+  {
+    "id": "v_083",
+    "kanji": "焼く",
+    "reading": "やく",
+    "meaning": "烤，燒",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "焼きます",
+      "te": "焼いて",
+      "nai": "焼かない",
+      "ta": "焼いた",
+      "potential": "焼ける",
+      "volitional": "焼こう",
+      "imperative": "焼け",
+      "passive": "焼かれる",
+      "causative": "焼かせる",
+      "causativePassive": "焼かされる"
+    }
+  },
+  {
+    "id": "v_084",
+    "kanji": "塗る",
+    "reading": "ぬる",
+    "meaning": "塗抹，塗刷",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "塗ります",
+      "te": "塗って",
+      "nai": "塗らない",
+      "ta": "塗った",
+      "potential": "塗れる",
+      "volitional": "塗ろう",
+      "imperative": "塗れ",
+      "passive": "塗られる",
+      "causative": "塗らせる",
+      "causativePassive": "塗らされる"
+    }
+  },
+  {
+    "id": "v_085",
+    "kanji": "比べる",
+    "reading": "くらべる",
+    "meaning": "比較",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "比べます",
+      "te": "比べて",
+      "nai": "比べない",
+      "ta": "比べた",
+      "potential": "比べられる",
+      "volitional": "比べよう",
+      "imperative": "比べろ",
+      "passive": "比べられる",
+      "causative": "比べさせる",
+      "causativePassive": "比べさせられる"
+    }
+  },
+  {
+    "id": "v_086",
+    "kanji": "踏む",
+    "reading": "ふむ",
+    "meaning": "踩，踏",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "踏みます",
+      "te": "踏んで",
+      "nai": "踏まない",
+      "ta": "踏んだ",
+      "potential": "踏める",
+      "volitional": "踏もう",
+      "imperative": "踏め",
+      "passive": "踏まれる",
+      "causative": "踏ませる",
+      "causativePassive": "踏まされる"
+    }
+  },
+  {
+    "id": "v_087",
+    "kanji": "盗む",
+    "reading": "ぬすむ",
+    "meaning": "偷竊",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "盗みます",
+      "te": "盗んで",
+      "nai": "盗まない",
+      "ta": "盗んだ",
+      "potential": "盗める",
+      "volitional": "盗もう",
+      "imperative": "盗め",
+      "passive": "盗まれる",
+      "causative": "盗ませる",
+      "causativePassive": "盗まされる"
+    }
+  },
+  {
+    "id": "v_088",
+    "kanji": "鳴る",
+    "reading": "なる",
+    "meaning": "響，發出聲音",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "鳴ります",
+      "te": "鳴って",
+      "nai": "鳴らない",
+      "ta": "鳴った",
+      "potential": "鳴れる",
+      "volitional": "鳴ろう",
+      "imperative": "鳴れ",
+      "passive": "鳴られる",
+      "causative": "鳴らせる",
+      "causativePassive": "鳴らされる"
+    }
+  },
+  {
+    "id": "v_089",
+    "kanji": "送る",
+    "reading": "おくる",
+    "meaning": "度過（生活）",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "送ります",
+      "te": "送って",
+      "nai": "送らない",
+      "ta": "送った",
+      "potential": "送れる",
+      "volitional": "送ろう",
+      "imperative": "送れ",
+      "passive": "送られる",
+      "causative": "送らせる",
+      "causativePassive": "送らされる"
+    }
+  },
+  {
+    "id": "v_090",
+    "kanji": "進める",
+    "reading": "すすめる",
+    "meaning": "推進，提昇",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "進めます",
+      "te": "進めて",
+      "nai": "進めない",
+      "ta": "進めた",
+      "potential": "進められる",
+      "volitional": "進めよう",
+      "imperative": "進めろ",
+      "passive": "進められる",
+      "causative": "進めさせる",
+      "causativePassive": "進めさせられる"
+    }
+  },
+  {
+    "id": "v_091",
+    "kanji": "壊れる",
+    "reading": "こわれる",
+    "meaning": "損壞，破裂",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "壊れます",
+      "te": "壊れて",
+      "nai": "壊れない",
+      "ta": "壊れた",
+      "potential": "壊れられる",
+      "volitional": "壊れよう",
+      "imperative": "壊れろ",
+      "passive": "壊れられる",
+      "causative": "壊れさせる",
+      "causativePassive": "壊れさせられる"
+    }
+  },
+  {
+    "id": "v_092",
+    "kanji": "壊す",
+    "reading": "こわす",
+    "meaning": "弄壞，破壞",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "壊します",
+      "te": "壊して",
+      "nai": "壊さない",
+      "ta": "壊した",
+      "potential": "壊せる",
+      "volitional": "壊そう",
+      "imperative": "壊せ",
+      "passive": "壊される",
+      "causative": "壊させる",
+      "causativePassive": "壊させられる"
+    }
+  },
+  {
+    "id": "v_093",
+    "kanji": "落りる",
+    "reading": "おりる",
+    "meaning": "降下，下車",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "落ります",
+      "te": "落りて",
+      "nai": "落りない",
+      "ta": "落りた",
+      "potential": "落利られる",
+      "volitional": "落りよう",
+      "imperative": "落りろ",
+      "passive": "落りられる",
+      "causative": "落りさせる",
+      "causativePassive": "落りさせられる"
+    }
+  },
+  {
+    "id": "v_094",
+    "kanji": "下りる",
+    "reading": "おりる",
+    "meaning": "走下，降下",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "下ります",
+      "te": "下りて",
+      "nai": "下りない",
+      "ta": "下りた",
+      "potential": "下りられる",
+      "volitional": "下りよう",
+      "imperative": "下りろ",
+      "passive": "下りられる",
+      "causative": "下りさせる",
+      "causativePassive": "下りさせられる"
+    }
+  },
+  {
+    "id": "v_095",
+    "kanji": "慣れる",
+    "reading": "なれる",
+    "meaning": "習慣，熟練",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "慣れます",
+      "te": "慣れて",
+      "nai": "慣れない",
+      "ta": "慣れた",
+      "potential": "慣れられる",
+      "volitional": "慣れよう",
+      "imperative": "慣れろ",
+      "passive": "慣れられる",
+      "causative": "慣れさせる",
+      "causativePassive": "慣れさせられる"
+    }
+  },
+  {
+    "id": "v_096",
+    "kanji": "手伝う",
+    "reading": "てつだう",
+    "meaning": "幫忙，協助",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "手伝います",
+      "te": "手伝って",
+      "nai": "手伝わない",
+      "ta": "手伝った",
+      "potential": "手伝える",
+      "volitional": "手伝おう",
+      "imperative": "手伝え",
+      "passive": "手伝われる",
+      "causative": "手伝わせる",
+      "causativePassive": "手伝わされる"
+    }
+  },
+  {
+    "id": "v_097",
+    "kanji": "運ぶ",
+    "reading": "はこぶ",
+    "meaning": "搬運，運輸",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "運ぶます",
+      "te": "運んで",
+      "nai": "運ばない",
+      "ta": "運んだ",
+      "potential": "運べる",
+      "volitional": "運ぼう",
+      "imperative": "運べ",
+      "passive": "運ばれる",
+      "causative": "運ばせる",
+      "causativePassive": "運ばされる"
+    }
+  },
+  {
+    "id": "v_098",
+    "kanji": "打つ",
+    "reading": "打つ",
+    "meaning": "擊打，打字",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "打ちます",
+      "te": "打って",
+      "nai": "打たない",
+      "ta": "打った",
+      "potential": "打てる",
+      "volitional": "打とう",
+      "imperative": "打て",
+      "passive": "打たれる",
+      "causative": "打たせる",
+      "causativePassive": "打たされる"
+    }
+  },
+  {
+    "id": "v_099",
+    "kanji": "渡す",
+    "reading": "わたす",
+    "meaning": "遞給，交付",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "渡します",
+      "te": "渡して",
+      "nai": "渡さない",
+      "ta": "渡した",
+      "potential": "渡せる",
+      "volitional": "渡そう",
+      "imperative": "渡せ",
+      "passive": "渡される",
+      "causative": "渡させる",
+      "causativePassive": "渡させられる"
+    }
+  },
+  {
+    "id": "v_100",
+    "kanji": "渡る",
+    "reading": "わたる",
+    "meaning": "過（橋/馬路）",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "渡ります",
+      "te": "渡って",
+      "nai": "渡らない",
+      "ta": "渡った",
+      "potential": "渡れる",
+      "volitional": "渡ろう",
+      "imperative": "渡れ",
+      "passive": "渡られる",
+      "causative": "渡らせる",
+      "causativePassive": "渡らされる"
+    }
+  },
+  {
+    "id": "v_101",
+    "kanji": "手伝う",
+    "reading": "てつだう",
+    "meaning": "幫助",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "手伝います",
+      "te": "手伝って",
+      "nai": "手伝わない",
+      "ta": "手伝った",
+      "potential": "手伝える",
+      "volitional": "手伝おう",
+      "imperative": "手伝え",
+      "passive": "手伝われる",
+      "causative": "手伝わせる",
+      "causativePassive": "手伝わされる"
+    }
+  },
+  {
+    "id": "v_102",
+    "kanji": "笑う",
+    "reading": "わらう",
+    "meaning": "笑，微笑",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "笑います",
+      "te": "笑って",
+      "nai": "笑わない",
+      "ta": "笑った",
+      "potential": "笑える",
+      "volitional": "笑おう",
+      "imperative": "笑え",
+      "passive": "笑われる",
+      "causative": "笑わせる",
+      "causativePassive": "笑わされる"
+    }
+  },
+  {
+    "id": "v_103",
+    "kanji": "運ぶ",
+    "reading": "はこぶ",
+    "meaning": "運輸，攜帶",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "運びます",
+      "te": "運んで",
+      "nai": "運ばない",
+      "ta": "運んだ",
+      "potential": "運べる",
+      "volitional": "運ぼう",
+      "imperative": "運べ",
+      "passive": "運ばれる",
+      "causative": "運ばせる",
+      "causativePassive": "運ばされる"
+    }
+  },
+  {
+    "id": "v_104",
+    "kanji": "下る",
+    "reading": "さがる",
+    "meaning": "下降，落下，墜落",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "下ります",
+      "te": "下って",
+      "nai": "下らない",
+      "ta": "下った",
+      "potential": "下れる",
+      "volitional": "下ろう",
+      "imperative": "下れ",
+      "passive": "下られる",
+      "causative": "下らせる",
+      "causativePassive": "下らされる"
+    }
+  },
+  {
+    "id": "v_105",
+    "kanji": "褒める",
+    "reading": "ほめる",
+    "meaning": "讚揚；說好話",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "褒めます",
+      "te": "褒めて",
+      "nai": "褒めない",
+      "ta": "褒めた",
+      "potential": "褒められる",
+      "volitional": "褒めよう",
+      "imperative": "褒めろ",
+      "passive": "褒められる",
+      "causative": "褒めさせる",
+      "causativePassive": "褒めさせられる"
+    }
+  },
+  {
+    "id": "v_106",
+    "kanji": "空く",
+    "reading": "すく",
+    "meaning": "空曠（指人少），不那麼擁擠",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "空きます",
+      "te": "空いて",
+      "nai": "空かない",
+      "ta": "空いた",
+      "potential": "空ける",
+      "volitional": "空こう",
+      "imperative": "空け",
+      "passive": "空かれる",
+      "causative": "空かせる",
+      "causativePassive": "空かされる"
+    }
+  },
+  {
+    "id": "v_107",
+    "kanji": "合う",
+    "reading": "あう",
+    "meaning": "合適，匹配",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "合います",
+      "te": "合って",
+      "nai": "合わない",
+      "ta": "合った",
+      "potential": "合える",
+      "volitional": "合おう",
+      "imperative": "合え",
+      "passive": "合われる",
+      "causative": "合わせる",
+      "causativePassive": "合わされる"
+    }
+  },
+  {
+    "id": "v_108",
+    "kanji": "遅れる",
+    "reading": "おくれる",
+    "meaning": "遲到",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "遅れます",
+      "te": "遅れて",
+      "nai": "遅れない",
+      "ta": "遅れた",
+      "potential": "遅れられる",
+      "volitional": "遅れよう",
+      "imperative": "遅れろ",
+      "passive": "遅れられる",
+      "causative": "遅れさせる",
+      "causativePassive": "遅れさせられる"
+    }
+  },
+  {
+    "id": "v_109",
+    "kanji": "見つかる",
+    "reading": "みつかる",
+    "meaning": "被發現（不及物動詞）",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "見つかります",
+      "te": "見つかって",
+      "nai": "見つからない",
+      "ta": "見つかった",
+      "potential": "見つかれる",
+      "volitional": "見つかろう",
+      "imperative": "見つかれ",
+      "passive": "見つかられる",
+      "causative": "見つからせる",
+      "causativePassive": "見つからされる"
+    }
+  },
+  {
+    "id": "v_110",
+    "kanji": "太る",
+    "reading": "ふとる",
+    "meaning": "增重，發胖",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "太ります",
+      "te": "太って",
+      "nai": "太らない",
+      "ta": "太った",
+      "potential": "太れる",
+      "volitional": "太ろう",
+      "imperative": "太れ",
+      "passive": "太られる",
+      "causative": "太らせる",
+      "causativePassive": "太らされる"
+    }
+  },
+  {
+    "id": "v_111",
+    "kanji": "直る",
+    "reading": "なおる",
+    "meaning": "修復，被修好（不及物動詞）",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "直ります",
+      "te": "直って",
+      "nai": "直らない",
+      "ta": "直った",
+      "potential": "直れる",
+      "volitional": "直ろう",
+      "imperative": "直れ",
+      "passive": "直られる",
+      "causative": "直らせる",
+      "causativePassive": "直らされる"
+    }
+  },
+  {
+    "id": "v_112",
+    "kanji": "集める",
+    "reading": "あつめる",
+    "meaning": "收集，聚集（他動詞）",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "集めます",
+      "te": "集めて",
+      "nai": "集めない",
+      "ta": "集めた",
+      "potential": "集められる",
+      "volitional": "集めよう",
+      "imperative": "集めろ",
+      "passive": "集められる",
+      "causative": "集めさせる",
+      "causativePassive": "集めさせられる"
+    }
+  },
+  {
+    "id": "v_113",
+    "kanji": "直す",
+    "reading": "なおす",
+    "meaning": "糾正，修理（他動詞）",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "直します",
+      "te": "直して",
+      "nai": "直さない",
+      "ta": "直した",
+      "potential": "直せる",
+      "volitional": "直そう",
+      "imperative": "直せ",
+      "passive": "直される",
+      "causative": "直させる",
+      "causativePassive": "直さされる"
+    }
+  },
+  {
+    "id": "v_114",
+    "kanji": "続く",
+    "reading": "つづく",
+    "meaning": "持續，延續（不及物動詞）",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "続きます",
+      "te": "続いて",
+      "nai": "続かない",
+      "ta": "続いた",
+      "potential": "続ける",
+      "volitional": "続こう",
+      "imperative": "続け",
+      "passive": "続かれる",
+      "causative": "続かせる",
+      "causativePassive": "続かされる"
+    }
+  },
+  {
+    "id": "v_115",
+    "kanji": "払う",
+    "reading": "はらう",
+    "meaning": "支付",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "払います",
+      "te": "払って",
+      "nai": "払わない",
+      "ta": "払った",
+      "potential": "払える",
+      "volitional": "払おう",
+      "imperative": "払え",
+      "passive": "払われる",
+      "causative": "払わせる",
+      "causativePassive": "払わされる"
+    }
+  },
+  {
+    "id": "v_116",
+    "kanji": "焼ける",
+    "reading": "やける",
+    "meaning": "燒焦，被烤（不及物動詞）",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "焼けます",
+      "te": "焼けて",
+      "nai": "焼けない",
+      "ta": "焼けた",
+      "potential": "焼けられる",
+      "volitional": "焼けよう",
+      "imperative": "焼けろ",
+      "passive": "焼けられる",
+      "causative": "焼けさせる",
+      "causativePassive": "焼けさせられる"
+    }
+  },
+  {
+    "id": "v_117",
+    "kanji": "冷える",
+    "reading": "ひえる",
+    "meaning": "變冷，降溫",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "冷えます",
+      "te": "冷えて",
+      "nai": "冷えない",
+      "ta": "冷えた",
+      "potential": "冷えられる",
+      "volitional": "冷えよう",
+      "imperative": "冷えろ",
+      "passive": "冷えられる",
+      "causative": "冷えさせる",
+      "causativePassive": "冷えさせられる"
+    }
+  },
+  {
+    "id": "v_118",
+    "kanji": "点く",
+    "reading": "つく",
+    "meaning": "點燃，（燈）亮起",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "点きます",
+      "te": "点いて",
+      "nai": "点かない",
+      "ta": "点いた",
+      "potential": "点ける",
+      "volitional": "点こう",
+      "imperative": "点け",
+      "passive": "点かれる",
+      "causative": "点かせる",
+      "causativePassive": "点かされる"
+    }
+  },
+  {
+    "id": "v_119",
+    "kanji": "構う",
+    "reading": "かまう",
+    "meaning": "關心，在意",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "構います",
+      "te": "構って",
+      "nai": "構わない",
+      "ta": "構った",
+      "potential": "構える",
+      "volitional": "構おう",
+      "imperative": "構え",
+      "passive": "構われる",
+      "causative": "構わせる",
+      "causativePassive": "構わされる"
+    }
+  },
+  {
+    "id": "v_120",
+    "kanji": "続ける",
+    "reading": "つづける",
+    "meaning": "繼續，接連（他動詞）",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "続けます",
+      "te": "続けて",
+      "nai": "続けない",
+      "ta": "續けた",
+      "potential": "続けられる",
+      "volitional": "続けよう",
+      "imperative": "続けろ",
+      "passive": "続けられる",
+      "causative": "続けさせる",
+      "causativePassive": "続けさせられる"
+    }
+  },
+  {
+    "id": "v_121",
+    "kanji": "落とす",
+    "reading": "おとす",
+    "meaning": "掉落，弄丟（他動詞）",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "落とします",
+      "te": "落として",
+      "nai": "落とさない",
+      "ta": "落とした",
+      "potential": "落とせる",
+      "volitional": "落とそう",
+      "imperative": "落とせ",
+      "passive": "落とされる",
+      "causative": "落とさせる",
+      "causativePassive": "落とさされる"
+    }
+  },
+  {
+    "id": "v_122",
+    "kanji": "割れる",
+    "reading": "われる",
+    "meaning": "破裂，打碎（不及物動詞）",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "割れます",
+      "te": "割れて",
+      "nai": "割れない",
+      "ta": "割れた",
+      "potential": "割れられる",
+      "volitional": "割れよう",
+      "imperative": "割れろ",
+      "passive": "割れられる",
+      "causative": "割れさせる",
+      "causativePassive": "割れさせられる"
+    }
+  },
+  {
+    "id": "v_123",
+    "kanji": "いじめる",
+    "reading": "いじめる",
+    "meaning": "霸凌，欺負",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "いじめます",
+      "te": "いじめて",
+      "nai": "いじめない",
+      "ta": "いじめた",
+      "potential": "いじめられる",
+      "volitional": "いじめよう",
+      "imperative": "いじめろ",
+      "passive": "いじめられる",
+      "causative": "いじめさせる",
+      "causativePassive": "いじめさせられる"
+    }
+  },
+  {
+    "id": "v_124",
+    "kanji": "回す",
+    "reading": "まわす",
+    "meaning": "旋轉，轉動（他動詞）",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "回します",
+      "te": "回して",
+      "nai": "回さない",
+      "ta": "回した",
+      "potential": "回せる",
+      "volitional": "回そう",
+      "imperative": "回せ",
+      "passive": "回される",
+      "causative": "回させる",
+      "causativePassive": "回さされる"
+    }
+  },
+  {
+    "id": "v_125",
+    "kanji": "濡れる",
+    "reading": "ぬれる",
+    "meaning": "淋濕，弄濕",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "濡れます",
+      "te": "濡れて",
+      "nai": "濡れない",
+      "ta": "濡れた",
+      "potential": "濡れられる",
+      "volitional": "濡れよう",
+      "imperative": "濡れろ",
+      "passive": "濡れられる",
+      "causative": "濡れさせる",
+      "causativePassive": "濡れさせられる"
+    }
+  },
+  {
+    "id": "v_126",
+    "kanji": "倒れる",
+    "reading": "たおれる",
+    "meaning": "倒下，崩潰",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "倒れます",
+      "te": "倒れて",
+      "nai": "倒れない",
+      "ta": "倒れた",
+      "potential": "倒れられる",
+      "volitional": "倒れよう",
+      "imperative": "倒れろ",
+      "passive": "倒れられる",
+      "causative": "倒れさせる",
+      "causativePassive": "倒れさせられる"
+    }
+  },
+  {
+    "id": "v_127",
+    "kanji": "考える",
+    "reading": "かんがえる",
+    "meaning": "思考，考慮",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "考えます",
+      "te": "考えて",
+      "nai": "考えない",
+      "ta": "考えた",
+      "potential": "考えられる",
+      "volitional": "考えよう",
+      "imperative": "考えろ",
+      "passive": "考えられる",
+      "causative": "考えさせる",
+      "causativePassive": "考えさせられる"
+    }
+  },
+  {
+    "id": "v_128",
+    "kanji": "向かう",
+    "reading": "むかう",
+    "meaning": "面對，前往",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "向かいます",
+      "te": "向かって",
+      "nai": "向かわない",
+      "ta": "向かった",
+      "potential": "向かえる",
+      "volitional": "向かおう",
+      "imperative": "向かえ",
+      "passive": "向かわれる",
+      "causative": "向かわせる",
+      "causativePassive": "向かわされる"
+    }
+  },
+  {
+    "id": "v_129",
+    "kanji": "移る",
+    "reading": "うつる",
+    "meaning": "搬遷，轉移（不及物動詞）",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "移ります",
+      "te": "移って",
+      "nai": "移らない",
+      "ta": "移った",
+      "potential": "移れる",
+      "volitional": "移ろう",
+      "imperative": "移れ",
+      "passive": "移られる",
+      "causative": "移らせる",
+      "causativePassive": "移らされる"
+    }
+  },
+  {
+    "id": "v_130",
+    "kanji": "動く",
+    "reading": "うごく",
+    "meaning": "移動，活動",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "動きます",
+      "te": "動いて",
+      "nai": "動かない",
+      "ta": "動いた",
+      "potential": "動ける",
+      "volitional": "動こう",
+      "imperative": "動け",
+      "passive": "動かれる",
+      "causative": "動かせる",
+      "causativePassive": "動かされる"
+    }
+  },
+  {
+    "id": "v_131",
+    "kanji": "植える",
+    "reading": "うえる",
+    "meaning": "種植",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "植えます",
+      "te": "植えて",
+      "nai": "植えない",
+      "ta": "植えた",
+      "potential": "植えられる",
+      "volitional": "植えよう",
+      "imperative": "植えろ",
+      "passive": "植えられる",
+      "causative": "植えさせる",
+      "causativePassive": "植えさせられる"
+    }
+  },
+  {
+    "id": "v_132",
+    "kanji": "汚れる",
+    "reading": "よごれる",
+    "meaning": "變髒（不及物動詞）",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "汚れます",
+      "te": "汚れて",
+      "nai": "汚れない",
+      "ta": "汚れた",
+      "potential": "汚れられる",
+      "volitional": "汚れよう",
+      "imperative": "汚れろ",
+      "passive": "汚れられる",
+      "causative": "汚れさせる",
+      "causativePassive": "汚れさせられる"
+    }
+  },
+  {
+    "id": "v_133",
+    "kanji": "勝つ",
+    "reading": "かつ",
+    "meaning": "獲勝",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "勝ちます",
+      "te": "勝って",
+      "nai": "勝たない",
+      "ta": "勝った",
+      "potential": "勝てる",
+      "volitional": "勝とう",
+      "imperative": "勝て",
+      "passive": "勝たれる",
+      "causative": "勝たせる",
+      "causativePassive": "勝たされる"
+    }
+  },
+  {
+    "id": "v_134",
+    "kanji": "取り替える",
+    "reading": "とりかえる",
+    "meaning": "交換，替換",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "取り替えます",
+      "te": "取り替えて",
+      "nai": "取り替えない",
+      "ta": "取り替えた",
+      "potential": "取り替えられる",
+      "volitional": "取り替えよう",
+      "imperative": "取り替えろ",
+      "passive": "取り替えられる",
+      "causative": "取り替えさせる",
+      "causativePassive": "取り替えさせられる"
+    }
+  },
+  {
+    "id": "v_135",
+    "kanji": "急ぐ",
+    "reading": "いそぐ",
+    "meaning": "趕快，著急",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "急ぎます",
+      "te": "急いで",
+      "nai": "急がない",
+      "ta": "急いだ",
+      "potential": "急げる",
+      "volitional": "急ごう",
+      "imperative": "急げ",
+      "passive": "急がれる",
+      "causative": "急がせる",
+      "causativePassive": "急がされる"
+    }
+  },
+  {
+    "id": "v_136",
+    "kanji": "間に合う",
+    "reading": "まにあう",
+    "meaning": "趕得上，及時",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "間に合います",
+      "te": "間に合って",
+      "nai": "間に合わない",
+      "ta": "間に合った",
+      "potential": "間に合える",
+      "volitional": "間に合おう",
+      "imperative": "間に合え",
+      "passive": "間に合われる",
+      "causative": "間に合わせる",
+      "causativePassive": "間に合わされる"
+    }
+  },
+  {
+    "id": "v_137",
+    "kanji": "役に立つ",
+    "reading": "やくにたつ",
+    "meaning": "有用，派上用場",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "役に立ちます",
+      "te": "役に立って",
+      "nai": "役に立たない",
+      "ta": "役に立った",
+      "potential": "役に立てる",
+      "volitional": "役に立とう",
+      "imperative": "役に立て",
+      "passive": "役に立たれる",
+      "causative": "役に立たせる",
+      "causativePassive": "役に立たされる"
+    }
+  },
+  {
+    "id": "v_138",
+    "kanji": "戻る",
+    "reading": "もどる",
+    "meaning": "返回，回來（不及物動詞）",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "戻ります",
+      "te": "戻って",
+      "nai": "戻らない",
+      "ta": "戻った",
+      "potential": "戻れる",
+      "volitional": "戻ろう",
+      "imperative": "戻れ",
+      "passive": "戻られる",
+      "causative": "戻らせる",
+      "causativePassive": "戻らされる"
+    }
+  },
+  {
+    "id": "v_139",
+    "kanji": "込む",
+    "reading": "こむ",
+    "meaning": "擁擠，人多",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "込みます",
+      "te": "込んで",
+      "nai": "込まない",
+      "ta": "込んだ",
+      "potential": "込める",
+      "volitional": "込もう",
+      "imperative": "込め",
+      "passive": "込まれる",
+      "causative": "込ませる",
+      "causativePassive": "込まされる"
+    }
+  },
+  {
+    "id": "v_140",
+    "kanji": "訪ねる",
+    "reading": "たずねる",
+    "meaning": "拜訪，訪問",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "訪ねます",
+      "te": "訪ねて",
+      "nai": "訪ねない",
+      "ta": "訪ねた",
+      "potential": "訪ねられる",
+      "volitional": "訪ねよう",
+      "imperative": "訪ねろ",
+      "passive": "訪ねられる",
+      "causative": "訪ねさせる",
+      "causativePassive": "訪ねさせられる"
+    }
+  },
+  {
+    "id": "v_141",
+    "kanji": "下げる",
+    "reading": "さげる",
+    "meaning": "降低，放下（他動詞）",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "下げます",
+      "te": "下げて",
+      "nai": "下げない",
+      "ta": "下げた",
+      "potential": "下げられる",
+      "volitional": "下げよう",
+      "imperative": "下げろ",
+      "passive": "下げられる",
+      "causative": "下げさせる",
+      "causativePassive": "下げさせられる"
+    }
+  },
+  {
+    "id": "v_142",
+    "kanji": "乗り換える",
+    "reading": "のりかえる",
+    "meaning": "換乘，轉乘",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "乗り換えます",
+      "te": "乗り換えて",
+      "nai": "乗り換えない",
+      "ta": "乗り換えた",
+      "potential": "乗り替えられる",
+      "volitional": "乗り換えよう",
+      "imperative": "乗り換えろ",
+      "passive": "乗り換えられる",
+      "causative": "乗り換えさせる",
+      "causativePassive": "乗り換えさせられる"
+    }
+  },
+  {
+    "id": "v_143",
+    "kanji": "別れる",
+    "reading": "わかれる",
+    "meaning": "分開，分手",
+    "level": "N4",
+    "group": 2,
+    "forms": {
+      "masu": "別れます",
+      "te": "別れて",
+      "nai": "別れない",
+      "ta": "別れた",
+      "potential": "別れられる",
+      "volitional": "別れよう",
+      "imperative": "別れろ",
+      "passive": "別れられる",
+      "causative": "別れさせる",
+      "causativePassive": "別れさせられる"
+    }
+  },
+  {
+    "id": "v_144",
+    "kanji": "眠る",
+    "reading": "ねむる",
+    "meaning": "睡覺",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "眠ります",
+      "te": "眠って",
+      "nai": "眠らない",
+      "ta": "眠った",
+      "potential": "眠れる",
+      "volitional": "眠ろう",
+      "imperative": "眠れ",
+      "passive": "眠られる",
+      "causative": "眠らせる",
+      "causativePassive": "眠らされる"
+    }
+  },
+  {
+    "id": "v_145",
+    "kanji": "上がる",
+    "reading": "あがる",
+    "meaning": "上升，登頂",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "上がります",
+      "te": "上がって",
+      "nai": "上がらない",
+      "ta": "上がった",
+      "potential": "上がれる",
+      "volitional": "上がろう",
+      "imperative": "上がれ",
+      "passive": "上がられる",
+      "causative": "上がらせる",
+      "causativePassive": "上がらされる"
+    }
+  },
+  {
+    "id": "v_146",
+    "kanji": "集まる",
+    "reading": "あつまる",
+    "meaning": "聚集，集合（不及物動詞）",
+    "level": "N4",
+    "group": 1,
+    "forms": {
+      "masu": "集まります",
+      "te": "集まって",
+      "nai": "集まらない",
+      "ta": "集まった",
+      "potential": "集まれる",
+      "volitional": "集まろう",
+      "imperative": "集まれ",
+      "passive": "集まられる",
+      "causative": "集まらせる",
+      "causativePassive": "集まらされる"
+    }
+  }
+]
